@@ -62,15 +62,18 @@ class App extends Component {
       	    <Route exact path="/Home">
                   <HomePage />
       	    </Route>
-                  <Route exact path="/People">
+            <Route exact path="/People">
                   <ListPage json={peopleJson} pageType = "People"/>
       	    </Route>
       	    <Route exact path="/Research">
                   <ListPage json={publicationsJson} pageType = "Publications"/>
       	    </Route>
-                  <Route exact path="/Courses">
+            <Route exact path="/Courses">
                   <ListPage json={coursesJson} pageType = "Courses"/>
       	    </Route>
+            <Route exact path="/Others">
+                  <Others />
+            </Route>
     	    </Switch>
     	  </Router>
       </div>
@@ -201,6 +204,17 @@ class HomePage extends Component {
   }
 }
 
+
+class Others extends Component {
+  render (){
+    return(
+      <div>
+        <a>HCI</a><br/>
+        <a>Just Infrastructures</a>
+      </div>
+    );
+  }
+}
 
 
 export default App;

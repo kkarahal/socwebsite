@@ -8,8 +8,6 @@ import { Publication } from './ListItemComponents/Publication';
 import { Course } from './ListItemComponents/Course';
 import { Topic } from './ListItemComponents/Topic'
 
-import {getMatchingPublications} from '../utils/utils.js'
-import {getTopPublications} from '../utils/utils.js'
 import Grid from '@material-ui/core/Grid';
 
 

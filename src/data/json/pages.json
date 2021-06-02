@@ -15,6 +15,10 @@
     {
       "title": "Courses",
       "extension": "Courses"
+    },
+    {
+      "title": "Other groups",
+      "extension": "Others"
     }
   ]
 }

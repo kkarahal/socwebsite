@@ -52,33 +52,6 @@ export function getMatchingAuthors(netIds){
   );
 }
 
-//
-// [PARAMS] num - number of most recent publications to return
-//          projectId - the id of the project to search for related
-//                      publications of
-//          publicationsJson - the json to find matching data from
-export function getTopPublications(num, projectId, publicationsJson){
-  let allPublications = publicationsJson.entries;
-  let matchingPubs = allPublications.filter(
-    function(value, index, arr){
-      return(value.projectId === projectId);
-    }
-  );
-
-  matchingPubs.sort((a, b) => (a.year < b.year) ? 1 : -1);
-  matchingPubs = matchingPubs.slice(0, 2);
-
-  let pubList = matchingPubs.map(
-    (pub) => <span key={matchingPubs.indexOf(pub)}>
-                <a href={pub.url}>{pub.title}</a><br/>
-             </span>
-  );
-
-  return(
-    <div> {pubList} </div>
-  );
-}
-
 // returns an array of num most recent publications
 // [PARAMS] num - number of most recent publications to return
 //          publicationsJson - the json to find matching data from
@@ -88,26 +61,6 @@ export function getRecentPublications(num, publicationsJson){
   let publications = publicationsJson.entries;
   publications.sort((a, b) => b.year - a.year);
   return publications.slice(0, num);
-}
-
-// Same as getTopPublications, but returns all matching pubs
-export function getMatchingPublications(projectId, publicationsJson){
-  let allPublications = publicationsJson.entries;
-  let matchingPubs = allPublications.filter(
-    function(value, index, arr){
-      return(value.projectId === projectId);
-    }
-  );
-
-  let pubList = matchingPubs.map(
-    (pub) => <span key={matchingPubs.indexOf(pub)}>
-                <a href={pub.url}>{pub.title}</a><br/>
-             </span>
-  );
-
-  return(
-    <div> {pubList} </div>
-  );
 }
 
 
