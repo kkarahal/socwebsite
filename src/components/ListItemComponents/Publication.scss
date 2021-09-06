@@ -1,0 +1,46 @@
+@import "../../utils/Variables";
+
+// Publication
+.Publication {
+    
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: [ll] 48% [gutter-left] 2% [center] 2% [gutter-right] 48% [rr];
+
+    .Info {
+      width: 100%;
+      grid-column-start: ll;
+      grid-column-end: gutter-left;
+      display: flex;
+      flex-wrap: wrap;
+
+      .Title {
+        font-family: $title-font;
+        font-weight: 600;
+        font-size: 1em;
+        color: black;
+      }
+
+      .AuthConf {
+	grid-column-start: ll;
+	display: flex;
+	flex-basis: 100%;
+	flex-wrap: wrap;
+        .Conference {
+          font-style: italic;
+	  border-radius: 5px;
+	  padding: 3px;
+	  width: max-content;
+        }
+         .Author {
+            margin-right: 5px;
+          }
+        }
+   }
+   .Description {
+     grid-column-start: gutter-right;
+     grid-column-end: rr;
+   }
+}

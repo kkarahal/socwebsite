@@ -6,19 +6,7 @@
 /*        VARIABLES        */
 /***************************/
 
-$main-blue: #1E4959;
-$main-desert: #A64521;
-$secondary-desert: #BF6836;
-$beige: #F2D8C2;
-$body-font: "Raleway";
-$title-font: "Montserrat";
-
-$project-image-width: 150px;
-$project-image-height: 100px;
-$topic-nav-width: 300px;
-
-$light-shadow: 0 5px 5px rgba(0, 0, 0, 0.16);
-
+@import './utils/variables';
 
 //****************//
 //    ELEMENTS    //
@@ -51,7 +39,6 @@ li {
   text-align: left;
   font-family: $body-font;
   color: black;
-  margin-top: 3em;
 }
 
 // Main navigation
@@ -59,9 +46,8 @@ li {
 .NavBar{
   font-family: $title-font;
   text-align: center;
-  padding-bottom: 40px;
+  padding: 20px;
   box-shadow: $light-shadow;
-  //margin-bottom: 50px;
 }
 
 #Home {
@@ -82,8 +68,8 @@ li {
 }
 
 .NavOption {
-  margin: .5em;
-  font-size: calc(100vw / 40);
+  margin: 24px;
+  font-size: 24px;
   cursor: pointer;
   text-transform: uppercase;
   &:hover {
@@ -93,78 +79,6 @@ li {
   }
 }
 
-// Publication
-.Publication {
-    
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 2em;
-    display: grid;
-    grid-template-columns: [ll] 48% [gutter-left] 2% [center] 2% [gutter-right] 48% [rr];
-
-    .Info {
-      width: 100%;
-      grid-column-start: ll;
-      grid-column-end: gutter-left;
-      display: flex;
-      flex-wrap: wrap;
-
-      .Title {
-        font-family: $title-font;
-        font-weight: 600;
-        font-size: 1em;
-        color: black;
-      }
-
-      .AuthConf {
-	grid-column-start: ll;
-	display: flex;
-	flex-basis: 100%;
-	flex-wrap: wrap;
-        .Conference {
-          font-style: italic;
-	  border-radius: 5px;
-	  padding: 3px;
-	  width: max-content;
-        }
-         .Author {
-            margin-right: 5px;
-          }
-        }
-   }
-   .Description {
-     grid-column-start: gutter-right;
-     grid-column-end: rr;
-   }
-}
-
-// Topic
-
-.Topic {
-  color: black;
-  width: max-content;
-
-  &.Interactive {
-    border-radius: 15px;
-    padding: 5px;
-
-    &:hover{
-      font-weight: bold;
-      cursor: pointer;
-    }
-
-    &.Selected {
-      font-weight: bold;
-      color: black;
-    }
-  }
-
-  &.Secondary {
-    &:before{
-      content: "#";
-    }
-  }
-}
 
 // TopicNav
 
@@ -183,166 +97,87 @@ li {
   font-size: 1.5em;
   border-bottom: 1px solid black;
 }
-.Person {
-    .ImageContainer {
-      width: 120px;
-      height: 120px;
-      position: relative;
-      overflow: hidden;
-      margin-bottom: 5px;
-      box-shadow: $light-shadow;
-      border-radius: 50%;
-      margin-right: 20px;
-    }
 
-    .Name {
-      font-family: $title-font;
-      font-weight: 600;
-      color: black;
-      &:hover{
-        font-weight: bold;
-      }
-    }
-
-    .Image {
-      width: 100%;
-      max-width: 25em;
-      max-height: 25em;
-    }
-
-    .FacultyRole {
-      display: inline-block;
-      font-size: 0.8em;
-      text-align: center;
-      color: rgb(129,129,129);
-    }
-
-    .FacultyContact {
-      padding-top: 20px;
-      font-size: 0.9em;
-
-      .label {
-        color: rgb(129,129,129);
-      }
-    }
-
-    .DegreeYear {
-      line-height: 1.2em;
-      display: inline-block;
-      padding: 0 5px;
-      font-size: 0.8em;
-      text-align: center;
-      border-radius: 5px;
-      margin-left: 3px;
-
-    }
-
-    .CurrentRole {
-      font-size: 0.9em;
-      font-weight: bold;
-      font-style: italic;
-    }
-
-    .BriefIntro {
-      font-size: 0.9em;
-      padding-bottom: 30px;
-    }
-}
-.Alumni {
-  .ImageContainer {
-    width: 120px;
-    height: 120px;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 5px;
-    box-shadow: $light-shadow;
-    border-radius: 50%;
-    margin-right: 20px;
-  }
-
-  .Name {
-    font-family: $title-font;
-    font-weight: 600;
-    color: black;
-    &:hover{
-      font-weight: bold;
-    }
-  }
-
-  .Image {
-    width: 100%;
-    max-width: 25em;
-    max-height: 25em;
-  }
-
-  .DegreeYear {
-    line-height: 1.2em;
-    display: inline-block;
-    font-size: 0.8em;
-    text-align: center;
-    color: black;
-  }
-
-  .CurrentRole {
-    font-size: 0.9em;
-    font-weight: bold;
-    font-style: italic;
-  }
-}
 
 // Home vars
 $home-padding: 50px;
-$top-max-height: 60vh;
-
+$top-row-height: 500px;
+$caption-padding: 5px;
+$content-margin: 70px;
+$left-content-margin: 150px;
+$home-height: 150vh;
 // Home
 
-.Home{
-    display: grid;
-    grid-template-rows: [top] minmax(0, max-content) [mid] minmax(max-content, 1fr) [btm];
-    grid-template-columns: [left] 1fr [center] 1fr [blurb] 1fr [right] $home-padding [far-right];
-    overflow-x: hidden;
-}
-
-.Statement{
-  background-color: $beige;
-  strong {
-    color: $main-blue;
+.Home {
+  .Caption {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    //margin-top: $caption-padding;
+    padding: $caption-padding;
+    bottom: 0;
   }
-  grid-row: 1;
-  grid-column: 1;
-  max-height: $top-max-height;
-
-  padding: $home-padding;
-  overflow: scroll;
+  background-image: url("/images/home.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: $home-height;
 }
 
-.HomeImage{
-  grid-area: top / center / mid / far-right;
-
-  object-fit: cover;
-  overflow: hidden;
-  min-height: $top-max-height;
-  height: $top-max-height;
-}
-
-.Blurb {
-  z-index: 100;
-  grid-row: 1;
-  float: bottom;
-  grid-column: 3;
-  padding: $home-padding;
-  background-color: rgba(256, 256, 256, 0.6);
-}
-
-.WhatsNew{
-  h2 {
-    color: $main-desert;
+.Statement {
+  margin: $content-margin $left-content-margin $content-margin;
+  width: 50vw;
+  //background-color: rgba(0, 0, 40, 0.6);
+  li {
+    line-height: .5em;
   }
-  grid-row: 3;
-  grid-column: 1 / 5;
-
-  padding: $home-padding;
 }
+
+.WhatsNew {
+  // margin to variable?
+  margin: 30px $left-content-margin $content-margin;
+}
+
+.HomePubList {
+  display: flex;
+}
+
+.PubCard {
+    width: 200px;
+    margin-right: 10px;
+    padding: 20px;
+    background-color: $beige;
+    border-bottom: 3px solid $secondary-desert;
+
+    a {
+      color: $secondary-desert;
+      font-size: 18px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    p {
+      padding: 5px;
+      background-color: $secondary-desert;
+      color: $beige;
+      width: max-content;
+    }
+}
+
+@media only screen and (min-width: 961px){
+
+}
+
+@media only screen and (min-width: 500px){
+
+}
+
+
 
 /****************************/
 /*        ANIMATIONS        */

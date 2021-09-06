@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {getMatchingAuthors} from '../../utils/utils.js'
-import { Topic } from './Topic';
+import {getMatchingAuthors} from '../../utils/utils.js';
+import './Publication.scss';
 
 export const Publication = (props) => {
   let authorList = getMatchingAuthors(props.authors);
 
-  const handleTopicClick = (topicName) => {
+  /*const handleTopicClick = (topicName) => {
     props.handleTopicClick(topicName);
-  }
+  }*/ // uncomment if we ever want to reimplement clickable topics
   return(
     <div className="Publication">
       <div className="Info">

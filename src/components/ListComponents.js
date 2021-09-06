@@ -3,10 +3,8 @@ import PropTypes from 'prop-types';
 
 import { Person } from './ListItemComponents/Person';
 import { Alumni } from './ListItemComponents/Alumni';
-import { Project } from './ListItemComponents/Project';
 import { Publication } from './ListItemComponents/Publication';
 import { Course } from './ListItemComponents/Course';
-import { Topic } from './ListItemComponents/Topic'
 
 import Grid from '@material-ui/core/Grid';
 
@@ -30,13 +28,13 @@ export const PeopleList = (props) => {
       <Grid item xs={10} sm={8}>
 
        <div className="StudentList">Faculty</div>
-       <Grid container className="Person" justify="flex-start" spacing={3}>
+       <Grid container className="Person" justify="flex-start" spacing={8}>
           <Grid item>
           <div className="ImageContainer">
-            <img className="Image" src="http://social.cs.uiuc.edu/people/images/people%20pics/karrie.jpg" />
+            <img className="Image" alt="Karrie Karahalios" src="http://social.cs.uiuc.edu/people/images/people%20pics/karrie.jpg" />
           </div>
           </Grid>
-          <Grid item container xs={8} spacing={3} justify="flex-start" direction="column">
+          <Grid item container xs={8} spacing={8} justify="flex-start" direction="column">
             <Grid item>
               <div className="Name">Karrie Karahalios</div>
             </Grid>
@@ -44,8 +42,8 @@ export const PeopleList = (props) => {
               <div className="FacultyRole">Professor of Computer Science</div>
             </Grid>
 
-            <Grid container className="FacultyContact" justify="flex-start" spacing={2}>
-              <Grid container xs={3} justify="flex-start" direction="column">
+            <Grid container className="FacultyContact" justify="flex-start" spacing={8}>
+              <Grid container justify="flex-start" direction="column">
                 <Grid item>
                   <div className="label">Email</div>
                 </Grid>
@@ -56,7 +54,7 @@ export const PeopleList = (props) => {
                   <div className="label">Address</div>
                 </Grid>
               </Grid>
-              <Grid container xs={9} className="info" justify="flex-start" direction="column">
+              <Grid container className="info" justify="flex-start" direction="column">
                 <Grid item>
                   <div>kkarahal@illinois.edu</div>
                 </Grid>
@@ -102,7 +100,7 @@ export const PeopleList = (props) => {
                 status={person.status}
                 degree={person.degree}
                 currentRole={person.currentRole}
-                gradYear={person.gradYear}
+                gradYear={parseInt(person.gradYear, 10)}
               />
             </Grid>
           ))}

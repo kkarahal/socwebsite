@@ -6,14 +6,14 @@ import Grid from '@material-ui/core/Grid';
 export const Alumni = (props) => {
 
     return(
-      <Grid container className="Alumni" justify="flex-start" spacing={3}>
+      <Grid container className="Alumni" justify="flex-start" spacing={8}>
         <Grid container justify="flex-start" direction="column">
             <Grid item>
             <div className="ImageContainer">
                 {
                 props.photoUrl.length > 0
-                ? (<img className="Image" src={props.photoUrl} />)
-                : (<img className="Image" src={'/images/staircase.png'} />)
+                ? (<img className="Image" alt={props.name} src={props.photoUrl} />)
+                : (<img className="Image" alt={props.name} src={'/images/staircase.png'} />)
                 }
             </div>
             </Grid>

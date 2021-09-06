@@ -6,18 +6,10 @@ import pagesJson from './data/json/pages.json';
 import homeJson from './data/json/home.json';
 import coursesJson from './data/json/courses.json';
 import peopleJson from './data/json/people.json';
-import karrieJson from './data/json/karrie.json';
-import projectsJson from './data/json/projects.json';
 import publicationsJson from './data/json/publications.json';
-
-import {getMatchingAuthors} from './utils/utils.js'
-import {getMatchingPublications} from './utils/utils.js'
 import {getRecentPublications} from './utils/utils.js'
 
-import Grid from '@material-ui/core/Grid';
-
-import { PeopleList, PublicationList, CourseList, ProjectList } from './components/ListComponents';
-import { ListPage, PublicationListContainer } from './containers/ListContainers';
+import { ListPage } from './containers/ListContainers';
 
 import {
   HashRouter as Router,
@@ -47,9 +39,6 @@ class App extends Component {
   }
 
   render(){
-    let pageContents;
-    let current = this.state.currentPage;
-
 
     return(
       <div className="App">
@@ -181,7 +170,7 @@ class HomePage extends Component {
 
     let recentPubs = getRecentPublications(3, publicationsJson);
     let pubList = recentPubs.map((pub, idx) => 
-      <div className={"PubCard"+idx} key={idx}>
+      <div className={"PubCard"} key={idx}>
         <a href={pub.url}>{pub.title}</a>
         <p>{pub.conference}</p>
       </div>
@@ -189,15 +178,18 @@ class HomePage extends Component {
 
     return(
       <div className="Home">
-          <div className="Statement">
-            <p>{homeJson.statement}</p>
-            <div>{goalsList}</div>
-          </div> 
-          
+        <div className="Statement">
+          <h1>Welcome to Social Spaces</h1>
+          <p>{homeJson.statement}</p>
+          <div>{goalsList}</div>
+        </div>
         <div className="WhatsNew">
           <h2>What's New</h2>
-          {pubList}
+          <div className="HomePubList">{pubList}</div>
         </div>
+        <p className="Caption">
+          Image: A protest in Urbana, July 2020. Illust. Joon Park
+        </p>
       </div>
 
     );
