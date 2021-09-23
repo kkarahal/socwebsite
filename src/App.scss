@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada');
+@import url('utils/cssreset.css');
 
 /***************************/
 /*        VARIABLES        */
@@ -48,10 +49,13 @@ li {
   text-align: center;
   padding: 20px;
   box-shadow: $light-shadow;
+  background-color: white;
+  position: relative;
+  z-index: 9999;
 }
 
 #Home {
-  font-family: "Montserrat Subrayada";
+  //font-family: "Montserrat Subrayada";
   color: $main-desert;
 }
 
@@ -67,8 +71,12 @@ li {
   color: $main-blue;
 }
 
+#Others {
+  color: $main-blue;
+}
+
 .NavOption {
-  margin: 24px;
+  margin-right: 48px;
   font-size: 24px;
   cursor: pointer;
   text-transform: uppercase;
@@ -98,51 +106,48 @@ li {
   border-bottom: 1px solid black;
 }
 
+// ListPage
+.ListPage {
+  margin-top: 30px;
+}
+
 
 // Home vars
 $home-padding: 50px;
-$top-row-height: 500px;
 $caption-padding: 5px;
-$content-margin: 70px;
+$top-content-margin: 30px;
 $left-content-margin: 150px;
 $home-height: 150vh;
+
 // Home
 
 .Home {
-  .Caption {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.6);
-    width: max-content;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    //margin-top: $caption-padding;
-    padding: $caption-padding;
-    bottom: 0;
+  h1, h2 {
+    margin-bottom: 0.5em;
   }
-  background-image: url("/images/home.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  height: $home-height;
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+}
+
+.Caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: max-content;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  padding: $caption-padding;
+  display: none;
 }
 
 .Statement {
-  margin: $content-margin $left-content-margin $content-margin;
-  width: 50vw;
-  //background-color: rgba(0, 0, 40, 0.6);
-  li {
-    line-height: .5em;
-  }
-}
-
-.WhatsNew {
-  // margin to variable?
-  margin: 30px $left-content-margin $content-margin;
-}
-
-.HomePubList {
-  display: flex;
+  line-height: 1.4em;
 }
 
 .PubCard {
@@ -162,6 +167,7 @@ $home-height: 150vh;
     }
 
     p {
+      margin-top: 10px;
       padding: 5px;
       background-color: $secondary-desert;
       color: $beige;
@@ -169,12 +175,40 @@ $home-height: 150vh;
     }
 }
 
-@media only screen and (min-width: 961px){
+@media only screen and (min-width: 769px){
+  .Home {
+    background-image: url("/images/home_lighter.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-blend-mode: soft-light;
+    height: $home-height;
+    padding: 15px;
+    z-index: -9999;
+  }
 
+  .HomePubList {
+    display: flex;
+  }
+
+  .Caption {
+    display: inherit;
+  }
+
+  .Statement, .WhatsNew {
+    margin-left: $left-content-margin;
+    margin-top: $top-content-margin;
+  }
 }
 
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 300px){
+  .Statement, .WhatsNew {
+    margin: 50px;
+  }
 
+  .PubCard {
+    margin-bottom: 20px;
+  }
 }
 
 

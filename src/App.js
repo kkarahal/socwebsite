@@ -83,9 +83,9 @@ class NavBar extends Component {
     super(props);
     this.handleClick = this.handleClick.bind(this);
 
-    this.toggle = this.toggle.bind(this);
     this.state = {
-      isOpen: true
+      isMobile: false,
+      isOpen: false
     };
 
   }
@@ -94,10 +94,27 @@ class NavBar extends Component {
     this.props.loadPage(pageName);
   }
 
-  toggle() {
+  handleWindowSizeChange = () => {
+    if (window.innerWidth < 760){ // tentative width for mobile cutoff
+      this.setState({
+        isMobile: true
+      });
+    } else {
+      this.setState({
+        isMobile: false
+      });
+    }
+  }
+
+  toggle = () => {
     this.setState({
-      isOpen: !this.state.isOpen
+        isOpen: !this.state.isOpen
     });
+  }
+
+  componentDidMount(){
+    this.handleWindowSizeChange();
+    window.addEventListener('resize', this.handleWindowSizeChange);
   }
 
   render(){
@@ -111,9 +128,31 @@ class NavBar extends Component {
                 />
     );
 
+    let mobileNav = 
+    <div>
+      {
+        this.state.isOpen
+        ?
+        <div>
+          <span>x</span>
+          {pages.map(
+            (page, idx) => <div key={idx}>{page}</div>
+          )}
+        </div>
+        :
+        <div>
+          {pages[0]}
+          <img 
+            src="/images/hamburger_icon.svg"
+            onClick={this.toggle}
+          />
+        </div>
+      }
+    </div>;
+
     return(
       <div className="NavBar">
-          {pages}
+          {this.state.isMobile ? mobileNav : pages}
       </div>
     );
 
@@ -178,18 +217,20 @@ class HomePage extends Component {
 
     return(
       <div className="Home">
-        <div className="Statement">
-          <h1>Welcome to Social Spaces</h1>
-          <p>{homeJson.statement}</p>
-          <div>{goalsList}</div>
+        <div className="HomeImage">
+          <div className="Statement">
+            <h1>Welcome to Social Spaces</h1>
+            <p>{homeJson.statement}</p>
+            <div>{goalsList}</div>
+          </div>
+          <div className="WhatsNew">
+            <h2>What's New</h2>
+            <div className="HomePubList">{pubList}</div>
+          </div>
+          <p className="Caption">
+            Image: A protest in Urbana, July 2020. Illust. Joon Park
+          </p>
         </div>
-        <div className="WhatsNew">
-          <h2>What's New</h2>
-          <div className="HomePubList">{pubList}</div>
-        </div>
-        <p className="Caption">
-          Image: A protest in Urbana, July 2020. Illust. Joon Park
-        </p>
       </div>
 
     );
