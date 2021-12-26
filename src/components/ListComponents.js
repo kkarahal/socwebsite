@@ -17,9 +17,7 @@ export const PeopleList = (props) => {
   currentPeople = people.filter(list => {
     return list.status.toLowerCase() === "current student";
   });
-  console.log(currentPeople);
   alumniPeople = people.filter(list => {
-    console.log(list.status);
     return list.status.toLowerCase() === "alumni";
   });
 

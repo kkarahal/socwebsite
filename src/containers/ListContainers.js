@@ -69,9 +69,6 @@ export class PublicationListContainer extends Component {
 
     let publications = getMatchingPubsByTopic(this.state.displayTopic);
     let topics = this.props.json.topics;
-    // or maybe... while you're mapping the topics, append state info
-    // to className?
-    // like className = {topic === displayTopic ? "Interactive" : "Interactive Selected"};
     let topicsMap = topics.map(
       (topic, idx) => <Topic
                     className={topic === this.state.displayTopic ? "Interactive Selected" : "Interactive"}

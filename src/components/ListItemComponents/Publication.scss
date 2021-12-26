@@ -24,15 +24,14 @@
       }
 
       .AuthConf {
-	grid-column-start: ll;
-	display: flex;
-	flex-basis: 100%;
-	flex-wrap: wrap;
+      	grid-column-start: ll;
+      	display: flex;
+      	flex-basis: 100%;
+      	flex-wrap: wrap;
+
         .Conference {
           font-style: italic;
-	  border-radius: 5px;
-	  padding: 3px;
-	  width: max-content;
+      	  width: max-content;
         }
          .Author {
             margin-right: 5px;

@@ -85,25 +85,27 @@ class NavBar extends Component {
 
     this.state = {
       isMobile: false,
-      isOpen: false
+      isOpen: false,
+      currentPage: null
     };
 
   }
 
   handleClick(pageName){
     this.props.loadPage(pageName);
+    let newState = {...this.state};
+    newState.currentPage = pageName;
+    this.setState(newState);
   }
 
   handleWindowSizeChange = () => {
+    let newState = {...this.state};
     if (window.innerWidth < 760){ // tentative width for mobile cutoff
-      this.setState({
-        isMobile: true
-      });
+      newState.isMobile = true;
     } else {
-      this.setState({
-        isMobile: false
-      });
+      newState.isMobile = false;
     }
+    this.setState(newState);
   }
 
   toggle = () => {
@@ -121,6 +123,7 @@ class NavBar extends Component {
     let pagesArray = pagesJson.pages;
     let pages = pagesArray.map(
       (page) => <NavOption
+                  highlight={page.title === this.state.currentPage}
                   key={pagesArray.indexOf(page)}
                   title={page.title}
 	                extension={page.extension}
@@ -130,24 +133,32 @@ class NavBar extends Component {
 
     let mobileNav = 
     <div>
-      {
-        this.state.isOpen
-        ?
-        <div>
-          <span>x</span>
-          {pages.map(
-            (page, idx) => <div key={idx}>{page}</div>
-          )}
-        </div>
-        :
-        <div>
-          {pages[0]}
+      <div className="MobileNav">
           <img 
             src="/images/hamburger_icon.svg"
             onClick={this.toggle}
           />
-        </div>
-      }
+          <span>
+            {pages[0]}
+          </span>
+          <div className={`MobileNavLinks${this.state.isOpen ? " Open" : ""}`}>
+            {
+              this.state.isOpen
+
+              ?
+
+              <div>
+                {pages.slice(1, pages.length).map(
+                  (page, idx) => <div key={idx}>{page}</div>
+                )}
+              </div>
+
+              :
+              
+              <span></span> 
+            }
+          </div>
+      </div>
     </div>;
 
     return(
@@ -179,7 +190,11 @@ class NavOption extends Component {
   render(){
     return(
       <Link to={"/" + this.props.extension}>
-        <span onClick={this.handleClick} className="NavOption" id={this.props.extension}>
+        <span 
+          onClick={this.handleClick} 
+          className={`NavOption${this.props.highlight ? " active" : ""}`}
+          id={this.props.extension}
+        >
           {this.props.title}
         </span>
       </Link>
@@ -236,7 +251,6 @@ class HomePage extends Component {
     );
   }
 }
-
 
 class Others extends Component {
   render (){

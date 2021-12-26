@@ -52,27 +52,35 @@ li {
   background-color: white;
   position: relative;
   z-index: 9999;
+
+  .NavOption {
+    vertical-align: middle;
+  }
+}
+
+.MobileNav {
+  img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1em;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .MobileNavLinks {
+    margin-left: calc(30px + 1em);
+  }
+
+  .Open {
+    animation: dropdown 300ms ease-in-out forwards;
+    transform-origin: top center;
+  }
+
+  text-align: left;
 }
 
 #Home {
-  //font-family: "Montserrat Subrayada";
   color: $main-desert;
-}
-
-#Research {
-  color: $main-blue;
-}
-
-#People {
-  color: $main-blue;
-}
-
-#Courses {
-  color: $main-blue;
-}
-
-#Others {
-  color: $main-blue;
 }
 
 .NavOption {
@@ -80,10 +88,10 @@ li {
   font-size: 24px;
   cursor: pointer;
   text-transform: uppercase;
-  &:hover {
-    animation: nav-hover .3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+  color: $main-blue;
+
+  &.active {
+    color: $secondary-blue;
   }
 }
 
@@ -175,6 +183,7 @@ $home-height: 150vh;
     }
 }
 
+/* for tablets and up */
 @media only screen and (min-width: 769px){
   .Home {
     background-image: url("/images/home_lighter.png");
@@ -185,6 +194,10 @@ $home-height: 150vh;
     height: $home-height;
     padding: 15px;
     z-index: -9999;
+    .Statement {
+      padding-left: 3em;
+      max-width: 40vw;
+    }
   }
 
   .HomePubList {
@@ -201,6 +214,7 @@ $home-height: 150vh;
   }
 }
 
+/* for mobile (phones) */
 @media only screen and (min-width: 300px){
   .Statement, .WhatsNew {
     margin: 50px;
@@ -216,12 +230,14 @@ $home-height: 150vh;
 /****************************/
 /*        ANIMATIONS        */
 /****************************/
-@keyframes nav-hover {
+
+/* https://codinhood.com/micro/10-dropdown-menu-animations-css-transform */
+@keyframes dropdown {
   from {
-    text-shadow: 0px 0px gray;
+    transform: translateY(-50px);
   }
 
   to {
-    text-shadow: -2px -3px lightgray;
+    transform: translateY(0px);
   }
 }

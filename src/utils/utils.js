@@ -15,41 +15,28 @@ function name_format_helper(name) {
   return name_split.join(" ");
 }
 
-// Returns a JSX div of spans of authors that match the netIds given
-// [PARAMS] peopleJson - the json to find matching data from
-//          netIds - the array of netIds to be matcheda
-export function getMatchingAuthors(netIds){
-  netIds = netIds.map(id => (id.trim()));
-  let allAuthors = peopleJson.entries;
-  let entryAuthors = allAuthors.filter(function(value, index, arr){
-    return (netIds.includes(value.netId.trim()));
-  });
-  let entryNetIds = entryAuthors.map(author => (author.netId));
-  for (var i=0; i < netIds.length; i++) {
-    if (netIds[i] === "kkarahal") {
-      netIds[i] = "K. Karahalios";
+// Returns an array of author names that match the netIds given
+// [PARAMS] netIds - the array of netIds to be matched
+export function getMatchingAuthorNames(netIds){
+  //console.log(netIds);
+  const allAuthors = peopleJson.entries;
+  const authorNames = netIds.map((netId) => {
+    if (netId === "kkarahal"){
+      return "K. Karahalios";
     }
-  }
-  let authorList = netIds.map(
-    (author, idx) => entryNetIds.includes(author) ?
-		  (entryAuthors[entryNetIds.indexOf(author)].pageUrl.length > 0 ?	
-                    (<span className="Author" key={idx}><a href={entryAuthors[entryNetIds.indexOf(author)].pageUrl}>
-		        <b>{name_format_helper(entryAuthors[entryNetIds.indexOf(author)].name)}</b>, </a></span>) :
-	            (<span className="Author">{entryAuthors[entryNetIds.indexOf(author)].name + ", "}</span>)
-		  ) : 
-		  (<span className="Author" key={idx}>{author + ", "}</span>)
-  );
-  let author = netIds[netIds.length - 1];
-  authorList[authorList.length - 1] = entryNetIds.includes(author) ?
-		  (entryAuthors[entryNetIds.indexOf(author)].pageUrl.length > 0 ?	
-                    (<span className="Author"><a href={entryAuthors[entryNetIds.indexOf(author)].pageUrl}>
-		        <b>{name_format_helper(entryAuthors[entryNetIds.indexOf(author)].name)}</b> </a></span>) :
-	            (<span className="Author">{entryAuthors[entryNetIds.indexOf(author)].name}</span>)
-		  ) : 
-		  (<span className="Author">{author}</span>)
-  return(
-    authorList
-  );
+
+    const matchingAuthor = allAuthors.find((author) => {
+      return (author.netId === netId);
+    });
+
+    if (matchingAuthor){
+      return name_format_helper(matchingAuthor.name);
+    }
+
+    return netId;
+  });
+
+  return authorNames.join(", ");
 }
 
 // returns an array of num most recent publications

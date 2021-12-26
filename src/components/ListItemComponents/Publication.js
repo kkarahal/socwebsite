@@ -1,25 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {getMatchingAuthors} from '../../utils/utils.js';
+import {getMatchingAuthorNames} from '../../utils/utils.js';
 import './Publication.scss';
 
 export const Publication = (props) => {
-  let authorList = getMatchingAuthors(props.authors);
+  let authorList = getMatchingAuthorNames(props.authors);
 
   /*const handleTopicClick = (topicName) => {
     props.handleTopicClick(topicName);
   }*/ // uncomment if we ever want to reimplement clickable topics
+
   return(
     <div className="Publication">
       <div className="Info">
         <div className="Title"><a href={process.env.PUBLIC_URL + props.url}>{props.title}</a></div>
-	<div className="AuthConf">
-          {authorList}
-          <div className="Conference">{props.conference}</div>
-	</div>
+        	<div className="AuthConf">
+              <div>{authorList}</div>
+              <div className="Conference">{props.conference}</div>
+        	</div>
         <div className="PubTopics">
           {props.topics.map(
-             (topic) => <span className="Topic Secondary"> {topic} </span>
+             (topic, idx) => <span className="Topic Secondary"> {topic} </span>
           )}
         </div>
       </div>

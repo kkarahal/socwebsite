@@ -8,9 +8,9 @@
             "conference": "CSCW 2020",
             "authorIds": [
                 "M. Luo",
-                " T. Hsu",
-                " jp19",
-                " J. Hancock"
+                "T. Hsu",
+                "jp19",
+                "J. Hancock"
             ],
             "awards": [],
             "topics": [
@@ -26,9 +26,9 @@
             "conference": "CSCW 2018",
             "authorIds": [
                 "M. Gao",
-                " zxiao5",
-                " kkarahal",
-                " W. Fu"
+                "zxiao5",
+                "kkarahal",
+                "W. Fu"
             ],
             "awards": [],
             "topics": [
@@ -44,10 +44,10 @@
             "conference": "CSCW 2019",
             "authorIds": [
                 "zxiao5",
-                " P. Ho",
-                " X. Wang",
-                " kkarahal",
-                " H. Sundaram"
+                "P. Ho",
+                "X. Wang",
+                "kkarahal",
+                "H. Sundaram"
             ],
             "awards": [],
             "topics": [
@@ -63,9 +63,9 @@
             "conference": "CSCW 2019",
             "authorIds": [
                 "jp19",
-                " barber5",
-                " A. Kirlik",
-                " kkarahal"
+                "barber5",
+                "A. Kirlik",
+                "kkarahal"
             ],
             "awards": [],
             "topics": [
@@ -81,9 +81,9 @@
             "conference": "CSCW 2019",
             "authorIds": [
                 "D. Metaxa",
-                " jp19",
-                " J. Landay",
-                " J. Hancock"
+                "jp19",
+                "J. Landay",
+                "J. Hancock"
             ],
             "awards": [],
             "topics": [
@@ -99,11 +99,11 @@
             "conference": "IUI 2020",
             "authorIds": [
                 "S. Dey",
-                " B. Duff",
-                " N. Chhaya",
-                " W. Fu",
-                " V. Swaminathan",
-                " K. Karahalios"
+                "B. Duff",
+                "N. Chhaya",
+                "W. Fu",
+                "V. Swaminathan",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -119,9 +119,9 @@
             "conference": "ICA 2020",
             "authorIds": [
                 "M. Luo",
-                " T. Hsu",
-                " jp19",
-                " J. Hancock"
+                "T. Hsu",
+                "jp19",
+                "J. Hancock"
             ],
             "awards": [],
             "topics": [
@@ -137,10 +137,10 @@
             "conference": "CHI 2020",
             "authorIds": [
                 "S. Xiao",
-                " D. Metaxa",
-                " jp19",
-                " kkarahal",
-                " N. Salehi"
+                "D. Metaxa",
+                "jp19",
+                "kkarahal",
+                "N. Salehi"
             ],
             "awards": [
                 "Honorable Mention"
@@ -158,10 +158,10 @@
             "conference": "CHI 2020",
             "authorIds": [
                 "silash2",
-                " kvaccaro",
-                " yuey2",
-                " A. Rickman",
-                " kkarahal"
+                "kvaccaro",
+                "yuey2",
+                "A. Rickman",
+                "kkarahal"
             ],
             "awards": [],
             "topics": [
@@ -177,15 +177,15 @@
             "conference": "CSCW 2019",
             "authorIds": [
                 "S. Dey",
-                " B. Duff",
-                " W. Fu",
-                " K. Karahalios"
+                "B. Duff",
+                "W. Fu",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
                 "Visualisation",
-                " Persuasion",
-                " Crowdsourcing"
+                "Persuasion",
+                "Crowdsourcing"
             ],
             "description": ""
         },
@@ -197,9 +197,9 @@
             "conference": "ICA 2019",
             "authorIds": [
                 "D. Metaxa",
-                " jp19",
-                " J. Landay",
-                " J. Hancock"
+                "jp19",
+                "J. Landay",
+                "J. Hancock"
             ],
             "awards": [],
             "topics": [
@@ -215,11 +215,11 @@
             "conference": "CHI 2019",
             "authorIds": [
                 "meslami",
-                " kvaccaro",
-                " M. K. Lee",
-                " A. Elazari",
-                " egilbert",
-                " K. Karahalios"
+                "kvaccaro",
+                "M. K. Lee",
+                "A. Elazari",
+                "egilbert",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -235,9 +235,9 @@
             "conference": "CHI 2019",
             "authorIds": [
                 "hkong",
-                " W. Zhu",
-                " Z. Liu",
-                " K. Karahalios"
+                "W. Zhu",
+                "Z. Liu",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -253,8 +253,8 @@
             "conference": "CHI 2019",
             "authorIds": [
                 "hkong",
-                " Z. Liu",
-                " K. Karahalios"
+                "Z. Liu",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -270,8 +270,8 @@
             "conference": "SUI 2019",
             "authorIds": [
                 "S. Dey",
-                " W. Fu",
-                " K. Karahalios"
+                "W. Fu",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -287,7 +287,7 @@
             "conference": "ICWSM 2018",
             "authorIds": [
                 "meslami",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -303,14 +303,14 @@
             "conference": "CHI 2018",
             "authorIds": [
                 "meslami",
-                " S. R. Krishna Kumaran",
-                " C. Sandvig",
-                " K. Karahalios"
+                "S. R. Krishna Kumaran",
+                "C. Sandvig",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
                 "Algorithmic Experience",
-                " Algorithm Audits"
+                "Algorithm Audits"
             ],
             "description": ""
         },
@@ -322,11 +322,11 @@
             "conference": "CHI 2018",
             "authorIds": [
                 "kvaccaro",
-                " D. Huang",
-                " meslami",
-                " C. Sandvig",
-                " K. Hamilton",
-                " K. Karahalios"
+                "D. Huang",
+                "meslami",
+                "C. Sandvig",
+                "K. Hamilton",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -342,8 +342,8 @@
             "conference": "CHI 2018",
             "authorIds": [
                 "jkim",
-                " H. Hong",
-                " K. Karahalios"
+                "H. Hong",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -359,8 +359,8 @@
             "conference": "CHI 2018",
             "authorIds": [
                 "hkong",
-                " Z. Liu",
-                " K. Karahalios"
+                "Z. Liu",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -376,8 +376,8 @@
             "conference": "CHI 2018",
             "authorIds": [
                 "sdey4",
-                " K. Karahalios",
-                " W.T. Fu"
+                "K. Karahalios",
+                "W.T. Fu"
             ],
             "awards": [
                 "Honorable Mention"
@@ -395,13 +395,13 @@
             "conference": "CSCW 2018",
             "authorIds": [
                 "hkong",
-                " jlee",
-                " K. Karahalios"
+                "jlee",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
                 "Visualization",
-                " Accessibility"
+                "Accessibility"
             ],
             "description": ""
         },
@@ -413,8 +413,8 @@
             "conference": "SUI 2018",
             "authorIds": [
                 "S. Dey",
-                " W. Fu",
-                " K. Karahalios"
+                "W. Fu",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -430,8 +430,8 @@
             "conference": "J Acoust Soc Am",
             "authorIds": [
                 "mpietrowicz",
-                " M. Hasegawa-Johnson",
-                " K. Karahalios"
+                "M. Hasegawa-Johnson",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -447,8 +447,8 @@
             "conference": "EuroVis 2017",
             "authorIds": [
                 "hkong",
-                " Z. Liu",
-                " K. Karahalios"
+                "Z. Liu",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -464,9 +464,9 @@
             "conference": "ICWSM 2017",
             "authorIds": [
                 "meslami",
-                " kvaccaro",
-                " K. Karahalios",
-                " K. Hamilton"
+                "kvaccaro",
+                "K. Karahalios",
+                "K. Hamilton"
             ],
             "awards": [],
             "topics": [
@@ -482,7 +482,7 @@
             "conference": "ICWSM 2017",
             "authorIds": [
                 "meslami",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -498,7 +498,7 @@
             "conference": "CHI 2017",
             "authorIds": [
                 "meslami",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -514,8 +514,8 @@
             "conference": "ICASSP 2017",
             "authorIds": [
                 "mpietrowicz",
-                " M. Hasegawa-Johnson",
-                " K. Karahalios"
+                "M. Hasegawa-Johnson",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -531,8 +531,8 @@
             "conference": "CHI 2017",
             "authorIds": [
                 "sdey4",
-                " K. Karahalios",
-                " W. Fu"
+                "K. Karahalios",
+                "W. Fu"
             ],
             "awards": [],
             "topics": [
@@ -548,10 +548,10 @@
             "conference": "CHI 2017",
             "authorIds": [
                 "F. Jahanbakhsh",
-                " K. Karahalios",
-                " W.T. Fu",
-                " D. Marinov",
-                " B.P. Bailey"
+                "K. Karahalios",
+                "W.T. Fu",
+                "D. Marinov",
+                "B.P. Bailey"
             ],
             "awards": [
                 "Best Paper"
@@ -569,9 +569,9 @@
             "conference": "TACESS",
             "authorIds": [
                 "M. Betancourt",
-                " L. Dethorne",
-                " K. Karahalios",
-                " jkim"
+                "L. Dethorne",
+                "K. Karahalios",
+                "jkim"
             ],
             "awards": [],
             "topics": [
@@ -587,10 +587,10 @@
             "conference": "VLDB 2017",
             "authorIds": [
                 "T. Siddiqui",
-                " A. Kim",
-                " jlee",
-                " K. Karahalios",
-                " A. Parameswaran"
+                "A. Kim",
+                "jlee",
+                "K. Karahalios",
+                "A. Parameswaran"
             ],
             "awards": [],
             "topics": [
@@ -606,12 +606,12 @@
             "conference": "CSCW 2017",
             "authorIds": [
                 "J. Kulshrestha",
-                " meslami",
-                " J. Messias",
-                " M. B. Zafar",
-                " S. Ghosh",
-                " K. Gummadi",
-                " K. Karahalios"
+                "meslami",
+                "J. Messias",
+                "M. B. Zafar",
+                "S. Ghosh",
+                "K. Gummadi",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -627,9 +627,9 @@
             "conference": "CSCW 2017",
             "authorIds": [
                 "jkim",
-                " kvaccaro",
-                " K. Karahalios",
-                " H. Hong"
+                "kvaccaro",
+                "K. Karahalios",
+                "H. Hong"
             ],
             "awards": [],
             "topics": [
@@ -645,14 +645,14 @@
             "conference": "CSCW 2017",
             "authorIds": [
                 "sdey4",
-                " B. Duff",
-                " K. Karahalios",
-                " W. Fu"
+                "B. Duff",
+                "K. Karahalios",
+                "W. Fu"
             ],
             "awards": [],
             "topics": [
                 "Crowdfunding",
-                " Persuasion"
+                "Persuasion"
             ],
             "description": ""
         },
@@ -664,14 +664,14 @@
             "conference": "International Journal of Communication 2016",
             "authorIds": [
                 "C. Sandvig",
-                " K. Hamilton",
-                " K. Karahalios",
-                " C. Langbort"
+                "K. Hamilton",
+                "K. Karahalios",
+                "C. Langbort"
             ],
             "awards": [],
             "topics": [
                 "Algorithm Audits",
-                " Algorithmic Experience"
+                "Algorithmic Experience"
             ],
             "description": ""
         },
@@ -683,10 +683,10 @@
             "conference": "CIKM 2016",
             "authorIds": [
                 "nspirin",
-                " A. Kotov",
-                " K. Karahalios",
-                " V. Mladenov",
-                " P. Izhutov"
+                "A. Kotov",
+                "K. Karahalios",
+                "V. Mladenov",
+                "P. Izhutov"
             ],
             "awards": [],
             "topics": [
@@ -702,7 +702,7 @@
             "conference": "AMIA 2016",
             "authorIds": [
                 "H. Kong",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -718,14 +718,14 @@
             "conference": "AMIA 2016",
             "authorIds": [
                 "J. Lee",
-                " hkong",
-                " slin",
-                " K. Karahalios"
+                "hkong",
+                "slin",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
                 "Visualization",
-                " Accessibility"
+                "Accessibility"
             ],
             "description": ""
         },
@@ -737,8 +737,8 @@
             "conference": "DIS 2016",
             "authorIds": [
                 "hkong",
-                " jlee",
-                " K. Karahalios"
+                "jlee",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -748,18 +748,18 @@
         },
         {
             "photoUrl": "/images/staircase.png",
-            "title": "\"First I \"\"like\"\" it, then I hide it: Folk Theories of Social Feeds\"",
+            "title": "\"First I \"\"like\"\"it, then I hide it: Folk Theories of Social Feeds\"",
             "url": "/papers/pre-fall-2019/FirstIlikeit.pdf",
             "year": 2016,
             "conference": "CHI 2016",
             "authorIds": [
                 "meslami",
-                " K. Karahalios",
-                " C. Sandvig",
-                " kvaccaro",
-                " A. Rickman",
-                " K. Hamilton",
-                " A. Kirlik"
+                "K. Karahalios",
+                "C. Sandvig",
+                "kvaccaro",
+                "A. Rickman",
+                "K. Hamilton",
+                "A. Kirlik"
             ],
             "awards": [],
             "topics": [
@@ -775,10 +775,10 @@
             "conference": "CHI 2016",
             "authorIds": [
                 "jkim",
-                " hkong",
-                " K. Karahalios",
-                " W. Fu",
-                " H. Hong"
+                "hkong",
+                "K. Karahalios",
+                "W. Fu",
+                "H. Hong"
             ],
             "awards": [],
             "topics": [
@@ -794,14 +794,14 @@
             "conference": "WWW 2016",
             "authorIds": [
                 "G. Soeller",
-                " K. Karahalios",
-                " C. Sandvig",
-                " C. Wilson"
+                "K. Karahalios",
+                "C. Sandvig",
+                "C. Wilson"
             ],
             "awards": [],
             "topics": [
                 "Crowdsourcing",
-                " Algorithm Audits"
+                "Algorithm Audits"
             ],
             "description": ""
         },
@@ -813,10 +813,10 @@
             "conference": "Journal of Autism and Developmental Disorders 2015",
             "authorIds": [
                 "L. DeThorne",
-                " M. A. Betancourt",
-                " K. Karahalios",
-                " J. Halle",
-                " E. Bogue"
+                "M. A. Betancourt",
+                "K. Karahalios",
+                "J. Halle",
+                "E. Bogue"
             ],
             "awards": [],
             "topics": [
@@ -832,10 +832,10 @@
             "conference": "UIST 2015",
             "authorIds": [
                 "T. Gao",
-                " M. Dontcheva",
-                " E. Adar",
-                " Z. Liu",
-                " K. Karahalios"
+                "M. Dontcheva",
+                "E. Adar",
+                "Z. Liu",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -851,10 +851,10 @@
             "conference": "SIGIR 2015",
             "authorIds": [
                 "nspirin",
-                " M. Kuznetsov",
-                " J. Kiseleva",
-                " Y. Spirin",
-                " P. Izhutov"
+                "M. Kuznetsov",
+                "J. Kiseleva",
+                "Y. Spirin",
+                "P. Izhutov"
             ],
             "awards": [],
             "topics": [
@@ -870,9 +870,9 @@
             "conference": "SocInfo 2015",
             "authorIds": [
                 "hkong",
-                " W. Wu",
-                " B. Bailey",
-                " K. Karahalios"
+                "W. Wu",
+                "B. Bailey",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -888,9 +888,9 @@
             "conference": "SocInfo 2015",
             "authorIds": [
                 "jkim",
-                " S. Park",
-                " K. Karahalios",
-                " M. Twidale"
+                "S. Park",
+                "K. Karahalios",
+                "M. Twidale"
             ],
             "awards": [],
             "topics": [
@@ -906,9 +906,9 @@
             "conference": "ICHI 2015",
             "authorIds": [
                 "jkim",
-                " M. Snodgrass",
-                " mpietrowicz",
-                " K. Karahalios"
+                "M. Snodgrass",
+                "mpietrowicz",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -924,8 +924,8 @@
             "conference": "INTERSPEECH 2015",
             "authorIds": [
                 "mpietrowicz",
-                " M. Hasegawa-Johnson",
-                " K. Karahalios"
+                "M. Hasegawa-Johnson",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -941,14 +941,14 @@
             "conference": "ICA 2015",
             "authorIds": [
                 "C. Sandvig",
-                " K. Hamilton",
-                " K. Karahalios",
-                " C. Langbort"
+                "K. Hamilton",
+                "K. Karahalios",
+                "C. Langbort"
             ],
             "awards": [],
             "topics": [
                 "Algorithmic Experience",
-                " Algorithm Audits"
+                "Algorithm Audits"
             ],
             "description": ""
         },
@@ -960,20 +960,20 @@
             "conference": "CHI 2015",
             "authorIds": [
                 "meslami",
-                " A. Rickman",
-                " kvaccaro",
-                " A. Aleyasen",
-                " A. Vuong",
-                " K. Karahalios",
-                " K. Hamilton",
-                " C. Sandvig"
+                "A. Rickman",
+                "kvaccaro",
+                "A. Aleyasen",
+                "A. Vuong",
+                "K. Karahalios",
+                "K. Hamilton",
+                "C. Sandvig"
             ],
             "awards": [
                 "Best Paper"
             ],
             "topics": [
                 "Algorithmic Experience",
-                " Algorithm Audits"
+                "Algorithm Audits"
             ],
             "description": ""
         },
@@ -985,10 +985,10 @@
             "conference": "CSCW 2015",
             "authorIds": [
                 "kvaccaro",
-                " K. Karahalios",
-                " C. Sandvig",
-                " K. Hamilton",
-                " S. Langbort"
+                "K. Karahalios",
+                "C. Sandvig",
+                "K. Hamilton",
+                "S. Langbort"
             ],
             "awards": [],
             "topics": [
@@ -1004,15 +1004,15 @@
             "conference": "CSCW 015",
             "authorIds": [
                 "meslami",
-                " A. Aleyasen",
-                " K. Karahalios",
-                " K. Hamilton",
-                " C. Sandvig"
+                "A. Aleyasen",
+                "K. Karahalios",
+                "K. Hamilton",
+                "C. Sandvig"
             ],
             "awards": [],
             "topics": [
                 "Visualization",
-                " Algorithm Audits"
+                "Algorithm Audits"
             ],
             "description": ""
         },
@@ -1024,9 +1024,9 @@
             "conference": "IxD&A 2014",
             "authorIds": [
                 "K. Hamilton",
-                " K. Karahalios",
-                " C. Sandvig",
-                " C. Langbort"
+                "K. Karahalios",
+                "C. Sandvig",
+                "C. Langbort"
             ],
             "awards": [],
             "topics": [
@@ -1042,9 +1042,9 @@
             "conference": "ICA 2014",
             "authorIds": [
                 "C. Sandvig",
-                " K. Hamilton",
-                " K. Karahalios",
-                " C. Langbort"
+                "K. Hamilton",
+                "K. Karahalios",
+                "C. Langbort"
             ],
             "awards": [],
             "topics": [
@@ -1060,10 +1060,10 @@
             "conference": "CIKM 2014",
             "authorIds": [
                 "nspirin",
-                " J. He",
-                " M. Develin",
-                " K. Karahalios",
-                " M.Boucher"
+                "J. He",
+                "M. Develin",
+                "K. Karahalios",
+                "M.Boucher"
             ],
             "awards": [],
             "topics": [
@@ -1079,14 +1079,14 @@
             "conference": "SocInfo 2014",
             "authorIds": [
                 "meslami",
-                " A. Aleyasen",
-                " R. Zilouchian Moghaddam",
-                " K. Karahalios"
+                "A. Aleyasen",
+                "R. Zilouchian Moghaddam",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
                 "Social Networks",
-                " Algorithm Audits"
+                "Algorithm Audits"
             ],
             "description": ""
         },
@@ -1098,8 +1098,8 @@
             "conference": "SIGR 2014",
             "authorIds": [
                 "S. Huang",
-                " D. Tunkelang",
-                " K. Karahalios"
+                "D. Tunkelang",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1115,7 +1115,7 @@
             "conference": "CHI EA 2014",
             "authorIds": [
                 "M. Pietrowicz",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1131,14 +1131,14 @@
             "conference": "CHI EA 2014",
             "authorIds": [
                 "meslami",
-                " A. Aleyasen",
-                " R. Zilouchian Moghaddam",
-                " K. Karahalios"
+                "A. Aleyasen",
+                "R. Zilouchian Moghaddam",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
                 "Algorithm Audits",
-                " Social Networks"
+                "Social Networks"
             ],
             "description": ""
         },
@@ -1150,9 +1150,9 @@
             "conference": "CHI-alt 2014",
             "authorIds": [
                 "K. Hamilton",
-                " K. Karahalios",
-                " C. Sandvig",
-                " meslami"
+                "K. Karahalios",
+                "C. Sandvig",
+                "meslami"
             ],
             "awards": [],
             "topics": [
@@ -1168,11 +1168,11 @@
             "conference": "WWW 2014",
             "authorIds": [
                 "nspirin",
-                " meslami",
-                " J. Ding",
-                " P. Jain",
-                " B. Bailey",
-                " K. Karahalios"
+                "meslami",
+                "J. Ding",
+                "P. Jain",
+                "B. Bailey",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1188,7 +1188,7 @@
             "conference": "WWW 2013",
             "authorIds": [
                 "nspirin",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1204,7 +1204,7 @@
             "conference": "INTERACT 2013",
             "authorIds": [
                 "M. Kudeki",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1220,13 +1220,13 @@
             "conference": "HCIC Boaster 2013",
             "authorIds": [
                 "meslami",
-                " A. Aleyasen",
-                " K. Karahalios"
+                "A. Aleyasen",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
                 "Social Networks",
-                " Algorithm Audits"
+                "Algorithm Audits"
             ],
             "description": ""
         },
@@ -1238,8 +1238,8 @@
             "conference": "VAHC 2013",
             "authorIds": [
                 "jlee",
-                " slin",
-                " K. Karahalios"
+                "slin",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1255,10 +1255,10 @@
             "conference": "VAHC 2013",
             "authorIds": [
                 "jkim",
-                " M. Snodgrass",
-                " mpietrowicz",
-                " K. Karahalios",
-                " J. Halle"
+                "M. Snodgrass",
+                "mpietrowicz",
+                "K. Karahalios",
+                "J. Halle"
             ],
             "awards": [],
             "topics": [
@@ -1274,11 +1274,11 @@
             "conference": "HCOMP 2013",
             "authorIds": [
                 "mpietrowicz",
-                " dchopra",
-                " A. Sadeghi",
-                " P. Chandra",
-                " B.P. Bailey",
-                " K. Karahalios"
+                "dchopra",
+                "A. Sadeghi",
+                "P. Chandra",
+                "B.P. Bailey",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1294,7 +1294,7 @@
             "conference": "ICAD 2013",
             "authorIds": [
                 "mpietrowicz",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1310,11 +1310,11 @@
             "conference": "CSCW 2013",
             "authorIds": [
                 "jhailpern",
-                " M. Danilevsky",
-                " aharris",
-                " S. Sunnah",
-                " R. LaBotz",
-                " K. Karahalios"
+                "M. Danilevsky",
+                "aharris",
+                "S. Sunnah",
+                "R. LaBotz",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1330,7 +1330,7 @@
             "conference": "CHIEA 2012",
             "authorIds": [
                 "mpietrowicz",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1346,17 +1346,17 @@
             "conference": "DIS 2012",
             "authorIds": [
                 "jhailpern",
-                " aharris",
-                " R. LaBotz",
-                " B. Birman",
-                " K. Karahalios",
-                " L. DeThorne",
-                " J. Halle"
+                "aharris",
+                "R. LaBotz",
+                "B. Birman",
+                "K. Karahalios",
+                "L. DeThorne",
+                "J. Halle"
             ],
             "awards": [],
             "topics": [
                 "Visualization",
-                " Accessibility"
+                "Accessibility"
             ],
             "description": ""
         },
@@ -1368,11 +1368,11 @@
             "conference": "CHI 2012",
             "authorIds": [
                 "Tao Dong",
-                " Mira Dontcheva",
-                " Diana Joseph",
-                " Karrie Karahalios",
-                " Mark W. Newman",
-                " Mark S. Ackerman"
+                "Mira Dontcheva",
+                "Diana Joseph",
+                "Karrie Karahalios",
+                "Mark W. Newman",
+                "Mark S. Ackerman"
             ],
             "awards": [],
             "topics": [
@@ -1388,8 +1388,8 @@
             "conference": "ASSETS 2011",
             "authorIds": [
                 "jhailpern",
-                " K. Danilevsky",
-                " K. Karahalios"
+                "K. Danilevsky",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1405,7 +1405,7 @@
             "conference": "HICSS 2012",
             "authorIds": [
                 "tbergstrom",
-                " Karrie Karahalios"
+                "Karrie Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1421,7 +1421,7 @@
             "conference": "INTERACT 2011",
             "authorIds": [
                 "tbergstrom",
-                " Andrew Harris and Karrie Karahalios"
+                "Andrew Harris and Karrie Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1452,11 +1452,11 @@
             "conference": "HI 2011",
             "authorIds": [
                 "jhailpern",
-                " M. Danilevsky",
-                " A. Harris",
-                " K. Karahalios",
-                " G. Dell",
-                " J. Hengst"
+                "M. Danilevsky",
+                "A. Harris",
+                "K. Karahalios",
+                "G. Dell",
+                "J. Hengst"
             ],
             "awards": [],
             "topics": [
@@ -1472,11 +1472,11 @@
             "conference": "HI 2011",
             "authorIds": [
                 "jhailpern",
-                " N. Jitkoff",
-                " A. Warr",
-                " K. Karahalios",
-                " R. Sesek",
-                " N. Shkrob"
+                "N. Jitkoff",
+                "A. Warr",
+                "K. Karahalios",
+                "R. Sesek",
+                "N. Shkrob"
             ],
             "awards": [],
             "topics": [
@@ -1492,14 +1492,14 @@
             "conference": "ASSETS 2010",
             "authorIds": [
                 "jhailpern",
-                " K. Karahalios",
-                " L. DeThorne",
-                " J. Halle"
+                "K. Karahalios",
+                "L. DeThorne",
+                "J. Halle"
             ],
             "awards": [],
             "topics": [
                 "Visualization",
-                " Accessibility"
+                "Accessibility"
             ],
             "description": ""
         },
@@ -1511,8 +1511,8 @@
             "conference": "ASSETS 2010",
             "authorIds": [
                 "jhailpern",
-                " M. Danilevsky",
-                " K. Karahalios"
+                "M. Danilevsky",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1528,7 +1528,7 @@
             "conference": "ICWSM 2010",
             "authorIds": [
                 "egilbert",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1544,9 +1544,9 @@
             "conference": "DIS 2010",
             "authorIds": [
                 "jhailpern",
-                " N. Jitkoff",
-                " J. Subida",
-                " K. Karahalios"
+                "N. Jitkoff",
+                "J. Subida",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1562,7 +1562,7 @@
             "conference": "CSCW 2010",
             "authorIds": [
                 "egilbert",
-                " Karrie Karahalios"
+                "Karrie Karahalios"
             ],
             "awards": [
                 "Best Paper"
@@ -1580,7 +1580,7 @@
             "conference": "IEEE 2009",
             "authorIds": [
                 "K. Karahalios",
-                " tbergstrom"
+                "tbergstrom"
             ],
             "awards": [],
             "topics": [
@@ -1596,9 +1596,9 @@
             "conference": "ASSETS 2009",
             "authorIds": [
                 "jhailpern",
-                " K. Karahalios",
-                " L. DeThorne",
-                " J. Halle"
+                "K. Karahalios",
+                "L. DeThorne",
+                "J. Halle"
             ],
             "awards": [],
             "topics": [
@@ -1614,8 +1614,8 @@
             "conference": "INTERACT 2009",
             "authorIds": [
                 "jhailpern",
-                " L. G. Reid",
-                " R. Boardman"
+                "L. G. Reid",
+                "R. Boardman"
             ],
             "awards": [],
             "topics": [
@@ -1631,7 +1631,7 @@
             "conference": "INTERACT 2009",
             "authorIds": [
                 "tbergstrom",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1647,10 +1647,10 @@
             "conference": "TACCESS",
             "authorIds": [
                 "jhailpern",
-                " K. Karahalios",
-                " J. Halle",
-                " L. DeThorne",
-                " Coletto"
+                "K. Karahalios",
+                "J. Halle",
+                "L. DeThorne",
+                "Coletto"
             ],
             "awards": [],
             "topics": [
@@ -1681,9 +1681,9 @@
             "conference": "WWW 2009",
             "authorIds": [
                 "jhailpern",
-                " L.G. Reid",
-                " R. Boardman",
-                " S. Annam"
+                "L.G. Reid",
+                "R. Boardman",
+                "S. Annam"
             ],
             "awards": [],
             "topics": [
@@ -1699,7 +1699,7 @@
             "conference": "CHI 2009",
             "authorIds": [
                 "egilbert",
-                " Karrie Karahalios"
+                "Karrie Karahalios"
             ],
             "awards": [
                 "Best Paper"
@@ -1717,13 +1717,13 @@
             "conference": "CHI 2009",
             "authorIds": [
                 "jhailpern",
-                " K. Karahalios",
-                " J. Halle"
+                "K. Karahalios",
+                "J. Halle"
             ],
             "awards": [],
             "topics": [
                 "Accessibility",
-                " Visualization"
+                "Visualization"
             ],
             "description": ""
         },
@@ -1735,7 +1735,7 @@
             "conference": "CHI 2009",
             "authorIds": [
                 "tbergstrom",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1751,7 +1751,7 @@
             "conference": "CHI 2009",
             "authorIds": [
                 "pmathur",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1767,7 +1767,7 @@
             "conference": "CHI 2009",
             "authorIds": [
                 "pmathur",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1783,7 +1783,7 @@
             "conference": "CHI 2009",
             "authorIds": [
                 "kbongen",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1799,7 +1799,7 @@
             "conference": "IEEE Transactions on Multimedia 2009",
             "authorIds": [
                 "egilbert",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1815,8 +1815,8 @@
             "conference": "HICSS 2009",
             "authorIds": [
                 "egilbert",
-                " tbergstrom",
-                " K. Karahalios"
+                "tbergstrom",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1832,8 +1832,8 @@
             "conference": "HICSS 2009",
             "authorIds": [
                 "bchee",
-                " K. Karahalios",
-                " Bruce Schatz"
+                "K. Karahalios",
+                "Bruce Schatz"
             ],
             "awards": [],
             "topics": [
@@ -1853,7 +1853,7 @@
             "awards": [],
             "topics": [
                 "Visualization",
-                " Accessibility"
+                "Accessibility"
             ],
             "description": ""
         },
@@ -1865,10 +1865,10 @@
             "conference": "ASHA 2008",
             "authorIds": [
                 "L. S. DeThorne",
-                " K. Karahalios",
-                " J. Halle",
-                " jhailpern",
-                " M. Coletto"
+                "K. Karahalios",
+                "J. Halle",
+                "jhailpern",
+                "M. Coletto"
             ],
             "awards": [],
             "topics": [
@@ -1884,15 +1884,15 @@
             "conference": "ASHA 2008",
             "authorIds": [
                 "M. Coletto",
-                " L. S. DeThorne",
-                " J. Halle",
-                " K. Karahalios",
-                " jhailpern"
+                "L. S. DeThorne",
+                "J. Halle",
+                "K. Karahalios",
+                "jhailpern"
             ],
             "awards": [],
             "topics": [
                 "Visaulization",
-                " Accessibility"
+                "Accessibility"
             ],
             "description": ""
         },
@@ -1904,10 +1904,10 @@
             "conference": "ASSETS 2008",
             "authorIds": [
                 "jhailpern",
-                " K. Karahalios",
-                " J. Halle",
-                " L. S. DeThorne",
-                " M. Coletto"
+                "K. Karahalios",
+                "J. Halle",
+                "L. S. DeThorne",
+                "M. Coletto"
             ],
             "awards": [],
             "topics": [
@@ -1938,8 +1938,8 @@
             "conference": "AVI 2008",
             "authorIds": [
                 "jhagedorn",
-                " jhailpern",
-                " K. Karahalios"
+                "jhailpern",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -1955,15 +1955,15 @@
             "conference": "CHI 2008",
             "authorIds": [
                 "jhailpern",
-                " K. Karahalios",
-                " J. Halle",
-                " L. DeThorne",
-                " M. Coletto"
+                "K. Karahalios",
+                "J. Halle",
+                "L. DeThorne",
+                "M. Coletto"
             ],
             "awards": [],
             "topics": [
                 "Visualization",
-                " Accessibility"
+                "Accessibility"
             ],
             "description": ""
         },
@@ -1990,7 +1990,7 @@
             "conference": "CHI 2008",
             "authorIds": [
                 "tbergstrom",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -2006,8 +2006,8 @@
             "conference": "CHI 2008",
             "authorIds": [
                 "egilbert",
-                " K. Karahalios",
-                " C. Sandvig"
+                "K. Karahalios",
+                "C. Sandvig"
             ],
             "awards": [
                 "Best Paper"
@@ -2025,7 +2025,7 @@
             "conference": "CHI 2008",
             "authorIds": [
                 "egilbert",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -2041,7 +2041,7 @@
             "conference": "CHI 2008",
             "authorIds": [
                 "tbergstrom",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -2057,9 +2057,9 @@
             "conference": "CHI 2008",
             "authorIds": [
                 "jhailpern",
-                " K. Karahalios",
-                " L. DeThorne",
-                " J. Halle"
+                "K. Karahalios",
+                "L. DeThorne",
+                "J. Halle"
             ],
             "awards": [],
             "topics": [
@@ -2090,7 +2090,7 @@
             "conference": "IEEE TableTop 2007",
             "authorIds": [
                 "tbergstrom",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -2106,14 +2106,14 @@
             "conference": "INTERACT 2007",
             "authorIds": [
                 "lhaynes",
-                " aselcukoglu",
-                " S. Suh",
-                " K. Karahalios"
+                "aselcukoglu",
+                "S. Suh",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
                 "Social Networks",
-                " Visualization"
+                "Visualization"
             ],
             "description": ""
         },
@@ -2125,12 +2125,12 @@
             "conference": "INTERACT 2007",
             "authorIds": [
                 "egilbert",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
                 "Social Networks",
-                " Visualization"
+                "Visualization"
             ],
             "description": ""
         },
@@ -2142,7 +2142,7 @@
             "conference": "INTERACT 2007",
             "authorIds": [
                 "tbergstrom",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -2158,8 +2158,8 @@
             "conference": "HCI International 2007",
             "authorIds": [
                 "balshebli",
-                " egilbert",
-                " K. Karahalios"
+                "egilbert",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -2175,8 +2175,8 @@
             "conference": "Graphical Interfaces 2007",
             "authorIds": [
                 "tbergstrom",
-                " K. Karahalios",
-                " J. C. Hart"
+                "K. Karahalios",
+                "J. C. Hart"
             ],
             "awards": [],
             "topics": [
@@ -2192,7 +2192,7 @@
             "conference": "CHI 2007",
             "authorIds": [
                 "tbergstrom",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -2208,8 +2208,8 @@
             "conference": "CHI 2007",
             "authorIds": [
                 "egilbert",
-                " myapchaian",
-                " K. Karahalios"
+                "myapchaian",
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -2225,7 +2225,7 @@
             "conference": "HICSS 2007",
             "authorIds": [
                 "tbergstrom",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -2301,8 +2301,8 @@
             "conference": "ISEA 2006",
             "authorIds": [
                 "K. Karahalios",
-                " tbergstrom",
-                " myapchaian"
+                "tbergstrom",
+                "myapchaian"
             ],
             "awards": [],
             "topics": [
@@ -2363,7 +2363,7 @@
             "conference": "CHI 2006",
             "authorIds": [
                 "K. Karahalios",
-                " Fernanda Viegas"
+                "Fernanda Viegas"
             ],
             "awards": [],
             "topics": [
@@ -2379,7 +2379,7 @@
             "conference": "CHI 2006",
             "authorIds": [
                 "egilbert",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -2395,7 +2395,7 @@
             "conference": "CHI 2006",
             "authorIds": [
                 "tbergstrom",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -2411,7 +2411,7 @@
             "conference": "IEEE TableTop 2006",
             "authorIds": [
                 "K. Karahalios",
-                " T. Bergstrom"
+                "T. Bergstrom"
             ],
             "awards": [],
             "topics": [
@@ -2427,7 +2427,7 @@
             "conference": "ACM Crossroads 2006",
             "authorIds": [
                 "hmobahi",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -2443,7 +2443,7 @@
             "conference": "MobileHCI 2005",
             "authorIds": [
                 "B. Davis",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -2459,7 +2459,7 @@
             "conference": "INTERACT 2005",
             "authorIds": [
                 "M. I. Graham ",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -2475,7 +2475,7 @@
             "conference": "INTERACT 2005",
             "authorIds": [
                 "akalra",
-                " K. Karahalios"
+                "K. Karahalios"
             ],
             "awards": [],
             "topics": [
@@ -2491,7 +2491,7 @@
             "conference": "CHI 2005",
             "authorIds": [
                 "K. Karahalios",
-                " K. Dobson"
+                "K. Dobson"
             ],
             "awards": [],
             "topics": [
