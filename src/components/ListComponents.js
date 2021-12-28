@@ -175,3 +175,30 @@ export const CourseList = (props) => {
 CourseList.propTypes = {
   json: PropTypes.object.isRequired
 };
+
+
+export const GroupList = (props) => {
+  let groups = props.json.entries;
+
+  return (
+    <Grid container justify="center">
+      <Grid item xs={10} sm={8} md={8} lg={6}>
+      {groups.map(
+        (group, idx) => <li key={`group-${idx}`}>
+                      {
+                        group.url
+                        ?
+                        <a href={group.url}>{group.name}</a>
+                        :
+                        <span>{group.name}</span>
+                      }
+                   </li>
+      )}
+      </Grid>
+    </Grid>
+  );
+}
+
+GroupList.propTypes = {
+  json: PropTypes.object.isRequired
+};

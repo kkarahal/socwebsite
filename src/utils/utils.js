@@ -1,4 +1,3 @@
-import React from 'react';
 import peopleJson from '../data/json/people.json';
 import publicationsJson from '../data/json/publications.json';
 

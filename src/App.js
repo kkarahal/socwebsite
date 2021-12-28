@@ -7,6 +7,7 @@ import homeJson from './data/json/home.json';
 import coursesJson from './data/json/courses.json';
 import peopleJson from './data/json/people.json';
 import publicationsJson from './data/json/publications.json';
+import otherGroupsJson from './data/json/other_groups.json';
 import {getRecentPublications} from './utils/utils.js'
 
 import { ListPage } from './containers/ListContainers';
@@ -61,7 +62,7 @@ class App extends Component {
                   <ListPage json={coursesJson} pageType = "Courses"/>
       	    </Route>
             <Route exact path="/Others">
-                  <Others />
+                  <ListPage json={otherGroupsJson} pageType = "Others"/>
             </Route>
     	    </Switch>
     	  </Router>
@@ -123,7 +124,7 @@ class NavBar extends Component {
     let pagesArray = pagesJson.pages;
     let pages = pagesArray.map(
       (page) => <NavOption
-                  highlight={page.title === this.state.currentPage}
+                  highlight={page.extension === this.state.currentPage}
                   key={pagesArray.indexOf(page)}
                   title={page.title}
 	                extension={page.extension}
@@ -136,6 +137,7 @@ class NavBar extends Component {
       <div className="MobileNav">
           <img 
             src="/images/hamburger_icon.svg"
+            alt=""
             onClick={this.toggle}
           />
           <span>
@@ -248,17 +250,6 @@ class HomePage extends Component {
         </div>
       </div>
 
-    );
-  }
-}
-
-class Others extends Component {
-  render (){
-    return(
-      <div>
-        <a>HCI</a><br/>
-        <a>Just Infrastructures</a>
-      </div>
     );
   }
 }

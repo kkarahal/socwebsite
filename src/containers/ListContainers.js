@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { PeopleList, PublicationList, CourseList } from '../components/ListComponents';
+import { PeopleList, PublicationList, CourseList, GroupList } from '../components/ListComponents';
 import { getMatchingPubsByTopic } from '../utils/utils.js';
 import { Topic } from '../components/ListItemComponents/Topic.js';
 
@@ -29,6 +29,10 @@ export class ListPage extends Component {
 
       case "Courses":
         entryList = <CourseList json={this.props.json} />
+        break;
+
+      case "Others":
+        entryList = <GroupList json={this.props.json} />
         break;
 
       default:
