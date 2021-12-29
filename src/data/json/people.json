@@ -421,6 +421,16 @@
             "currentRole": ""
         },
         {
+            "photoUrl": "/images/ymwen2.png",
+            "name": "Yanming Wen",
+            "netId": "ymwen2",
+            "degree": "BS",
+            "status": "Alumni",
+            "gradYear": "2021",
+            "pageUrl": "",
+            "currentRole": "VMWare"
+        },
+        {
             "photoUrl": "/images/vinay.jpg",
             "name": "Vinay Koshy",
             "netId": "vkoshy2",

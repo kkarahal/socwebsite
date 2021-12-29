@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import {getMatchingAuthorNames} from '../../utils/utils.js';
 import './Publication.scss';
 
+// pdf icon by https://www.flaticon.com/authors/good-ware
+
 export const Publication = (props) => {
   let authorList = getMatchingAuthorNames(props.authors);
 
@@ -13,18 +15,24 @@ export const Publication = (props) => {
   return(
     <div className="Publication">
       <div className="Info">
-        <div className="Title"><a href={process.env.PUBLIC_URL + props.url}>{props.title}</a></div>
+        <div className="Title">{props.title}</div>
         	<div className="AuthConf">
-              <div>{authorList}</div>
+              <div className="Authors">{authorList}</div>
               <div className="Conference">{props.conference}</div>
         	</div>
         <div className="PubTopics">
           {props.topics.map(
-             (topic, idx) => <span className="Topic Secondary"> {topic} </span>
+             (topic, idx) => 
+              <span className="Topic Secondary" key={`topic-${idx}`}> {topic} </span>
           )}
         </div>
       </div>
-      <div className="Description">{props.description}</div>
+      <div className="Description">
+        <a href={process.env.PUBLIC_URL + props.url}>
+          <img src="/images/pdf.png" alt="" className="PdfIcon"/>
+        </a><br/>
+        {props.description}
+      </div>
     </div>
   );
 }

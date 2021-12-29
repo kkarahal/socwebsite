@@ -1,11 +1,29 @@
 {
   "entries":[
     {
-      "name": "HCI"
+      "name": "Just Infrastructures",
+      "description": "The Just Infrastructures speaker series",
+      "url": "https://just-infras.illinois.edu/"
     },
     {
-      "name": "Just Infrastructures",
-      "url": "/"
+      "name": "SCUBA",
+      "description": "The Social Computing Laboratory",
+      "url": "http://www.eshwarchandrasekharan.com/lab.html"
+    },
+    {
+      "name": "ORCHID",
+      "description": "Research in Computer Human Interaction Design",
+      "url": "http://orchid.cs.illinois.edu/about/index.html"
+    },
+    {
+      "name": "Crowd Dynamics Lab",
+      "description": "",
+      "url": "https://crowddynamicslab.github.io/"
+    },
+    {
+      "name": "Data Driven Design Group",
+      "description": "",
+      "url": "http://ranjithakumar.net/"
     }
   ]
 }

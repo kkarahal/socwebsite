@@ -55,7 +55,7 @@ class App extends Component {
             <Route exact path="/People">
                   <ListPage json={peopleJson} pageType = "People"/>
       	    </Route>
-      	    <Route exact path="/Research">
+      	    <Route exact path="/Publications">
                   <ListPage json={publicationsJson} pageType = "Publications"/>
       	    </Route>
             <Route exact path="/Courses">

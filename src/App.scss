@@ -39,7 +39,7 @@ li {
 .App {
   text-align: left;
   font-family: $body-font;
-  color: black;
+  color: $dark-gray;
 }
 
 // Main navigation
@@ -93,16 +93,6 @@ li {
   &.active {
     color: $secondary-blue;
   }
-}
-
-
-// TopicNav
-
-.TopicNav {
-  margin-left: 10%;
-  position: absolute;
-  height: 100%;
-  float: left;
 }
 
 // People
@@ -183,8 +173,21 @@ $home-height: 150vh;
     }
 }
 
+// Other Communities
+.Group {
+  margin-bottom: 20px;
+
+  a {
+    color: $main-desert;
+  }
+
+  .GroupName {
+    font-size: 24px;
+  }
+}
+
 /* for tablets and up */
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: $tablet-min-width){
   .Home {
     background-image: url("/images/home_lighter.png");
     background-size: 100%;
@@ -212,16 +215,34 @@ $home-height: 150vh;
     margin-left: $left-content-margin;
     margin-top: $top-content-margin;
   }
+
+  .TopicNav {
+    margin-left: $topic-nav-margin;
+    position: absolute;
+    height: 100%;
+    width: $topic-nav-width;
+    float: left;
+  }
+
+  .NavOption {
+    font-size: 1.7vw;
+  }
 }
 
 /* for mobile (phones) */
-@media only screen and (min-width: 300px){
+@media only screen and (max-width: $tablet-min-width){
   .Statement, .WhatsNew {
     margin: 50px;
   }
 
   .PubCard {
     margin-bottom: 20px;
+  }
+
+  .TopicNav {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 

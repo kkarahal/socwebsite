@@ -41,17 +41,6 @@ export const PeopleList = (props) => {
             </Grid>
 
             <Grid container className="FacultyContact" justify="flex-start" spacing={8}>
-              <Grid container justify="flex-start" direction="column">
-                <Grid item>
-                  <div className="label">Email</div>
-                </Grid>
-                <Grid item>
-                  <div className="label">Phone</div>
-                </Grid>
-                <Grid item>
-                  <div className="label">Address</div>
-                </Grid>
-              </Grid>
               <Grid container className="info" justify="flex-start" direction="column">
                 <Grid item>
                   <div>kkarahal@illinois.edu</div>
@@ -88,9 +77,9 @@ export const PeopleList = (props) => {
         </Grid>
 
         <div className="StudentList">Alumni</div>
-        <Grid container className="People" justify="flex-start" spacing={16}>
+        <Grid container className="People" justify="flex-start" spacing={32}>
           {alumniPeople.map(person => (
-            <Grid key={people.indexOf(person)} item lg={2}>
+            <Grid item key={people.indexOf(person)} lg={2}>
               <Alumni
                 name={person.name}
                 pageUrl={person.pageUrl}
@@ -184,14 +173,17 @@ export const GroupList = (props) => {
     <Grid container justify="center">
       <Grid item xs={10} sm={8} md={8} lg={6}>
       {groups.map(
-        (group, idx) => <li key={`group-${idx}`}>
-                      {
-                        group.url
-                        ?
-                        <a href={group.url}>{group.name}</a>
-                        :
-                        <span>{group.name}</span>
-                      }
+        (group, idx) => <li className="Group" key={`group-${idx}`}>
+                      <div className="GroupName">
+                        {
+                          group.url !== ""
+                          ?
+                          <a href={group.url}>{group.name}</a>
+                          :
+                          <span>{group.name}</span>
+                        }
+                      </div>
+                      <div className="GroupDescription">{group.description}</div>
                    </li>
       )}
       </Grid>

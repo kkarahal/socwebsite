@@ -5,8 +5,8 @@
       "extension": "Home"
     },
     {
-      "title": "Research",
-      "extension": "Research"
+      "title": "Publications",
+      "extension": "Publications"
     },
     {
       "title": "People",
@@ -17,7 +17,7 @@
       "extension": "Courses"
     },
     {
-      "title": "Other groups",
+      "title": "Other communities",
       "extension": "Others"
     }
   ]
