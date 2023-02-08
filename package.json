@@ -30,7 +30,6 @@
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
     "jquery": "^3.5.1",
-    "node-sass": "^4.14.1",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.8",
@@ -43,6 +42,7 @@
     "reactstrap": "^6.5.0",
     "require-dir": "^1.2.0",
     "resolve": "1.6.0",
+    "sass": "^1.58.0",
     "style-loader": "0.19.0",
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "0.6.2",
@@ -55,9 +55,10 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "deploy": "npm run build&&gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https://quvaba.github.io/jsontest",
+  "homepage": "https://vinyoshy2.github.io/socwebsite",
   "devDependencies": {
     "babel-plugin-require-all": "0.0.1",
     "gh-pages": "^2.0.0",
