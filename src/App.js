@@ -198,7 +198,7 @@ class HomePage extends Component {
             ➭ Visualize and study how people interact within social spaces<br/><br/>
             And more!
           </div> 
-	  <img src={"/images/frontpage3.jpg"} style={{width:"100%"}}/>
+	  <img src={process.env.PUBLIC_URL + "images/frontpage3.jpg"} style={{width:"100%"}}/>
         <hr />
         <div className="WhatsNew">
           <h2>What's New</h2>

@@ -23,7 +23,6 @@ export const PeopleList = (props) => {
   });
   console.log(currentPeople);
   alumniPeople = people.filter(list => {
-    console.log(list.status);
     return list.status.toLowerCase() == "alumni";
   });
 
@@ -100,7 +99,7 @@ export const PeopleList = (props) => {
               <Alumni
                 name={person.name}
                 pageUrl={person.pageUrl}
-                photoUrl={person.photoUrl}
+                photoUrl={process.env.PUBLIC_URL + person.photoUrl}
                 status={person.status}
                 degree={person.degree}
                 currentRole={person.currentRole}

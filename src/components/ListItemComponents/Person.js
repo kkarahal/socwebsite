@@ -12,7 +12,7 @@ export const Person = (props) => {
             {
               props.photoUrl.length > 0
               ? (<img className="Image" src={process.env.PUBLIC_URL + props.photoUrl} />)
-              : (<img className="Image" src={'/images/staircase.png'} />)
+              : (<img className="Image" src={process.env.PUBLIC_URL + '/images/staircase.png'} />)
             }
           </div>
         </Grid>
