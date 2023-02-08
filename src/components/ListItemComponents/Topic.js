@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import './Topic.scss';
 
 export class Topic extends Component {
   constructor(props){

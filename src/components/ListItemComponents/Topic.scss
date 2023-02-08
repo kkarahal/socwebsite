@@ -1,0 +1,29 @@
+@import "../../utils/Variables";
+
+// Topic
+
+.Topic {
+  color: $light-gray;
+  width: max-content;
+
+  &.Interactive {
+    border-radius: 15px;
+    padding: 5px;
+
+    &:hover{
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    &.Selected {
+      font-weight: bold;
+      color: black;
+    }
+  }
+
+  &.Secondary {
+    &:before{
+      content: "#";
+    }
+  }
+}

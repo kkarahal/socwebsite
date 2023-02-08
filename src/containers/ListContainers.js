@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { PeopleList, PublicationList, CourseList, ProjectList } from '../components/ListComponents';
+import { PeopleList, PublicationList, CourseList, GroupList } from '../components/ListComponents';
 import { getMatchingPubsByTopic } from '../utils/utils.js';
 import { Topic } from '../components/ListItemComponents/Topic.js';
 
@@ -29,6 +29,10 @@ export class ListPage extends Component {
 
       case "Courses":
         entryList = <CourseList json={this.props.json} />
+        break;
+
+      case "Others":
+        entryList = <GroupList json={this.props.json} />
         break;
 
       default:
@@ -69,13 +73,11 @@ export class PublicationListContainer extends Component {
 
     let publications = getMatchingPubsByTopic(this.state.displayTopic);
     let topics = this.props.json.topics;
-    // or maybe... while you're mapping the topics, append state info
-    // to className?
-    // like className = {topic == displayTopic ? "Interactive" : "Interactive Selected"};
     let topicsMap = topics.map(
-      (topic) => <Topic
-                    className={topic == this.state.displayTopic ? "Interactive Selected" : "Interactive"}
+      (topic, idx) => <Topic
+                    className={topic === this.state.displayTopic ? "Interactive Selected" : "Interactive"}
                     name={topic}
+                    key={idx}
                     onClick={this.handleTopicClick}
                   />
     );

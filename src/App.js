@@ -3,20 +3,14 @@ import React, { Component } from 'react';
 import './App.scss';
 
 import pagesJson from './data/json/pages.json';
+import homeJson from './data/json/home.json';
 import coursesJson from './data/json/courses.json';
 import peopleJson from './data/json/people.json';
-import karrieJson from './data/json/karrie.json';
-import projectsJson from './data/json/projects.json';
 import publicationsJson from './data/json/publications.json';
+import otherGroupsJson from './data/json/other_groups.json';
+import {getRecentPublications} from './utils/utils.js'
 
-import {getMatchingAuthors} from './utils/utils.js'
-import {getMatchingPublications} from './utils/utils.js'
-import {getTopPublications} from './utils/utils.js'
-
-import Grid from '@material-ui/core/Grid';
-
-import { PeopleList, PublicationList, CourseList, ProjectList } from './components/ListComponents';
-import { ListPage, PublicationListContainer } from './containers/ListContainers';
+import { ListPage } from './containers/ListContainers';
 
 import {
   HashRouter as Router,
@@ -46,32 +40,32 @@ class App extends Component {
   }
 
   render(){
-    let pageContents;
-    let current = this.state.currentPage;
-
 
     return(
       <div className="App">
         <Router>
           <NavBar json={pagesJson} loadPage={this.goToPage}/>
           <Switch>
-	    <Route exact path="/">
-              <HomePage />
-	    </Route>
-	    <Route exact path="/Home">
-              <HomePage />
-	    </Route>
+      	    <Route exact path="/">
+                  <HomePage />
+      	    </Route>
+      	    <Route exact path="/Home">
+                  <HomePage />
+      	    </Route>
             <Route exact path="/People">
-              <ListPage json={peopleJson} pageType = "People"/>
-	    </Route>
-	    <Route exact path="/Research">
-              <ListPage json={publicationsJson} pageType = "Publications"/>
-	    </Route>
+                  <ListPage json={peopleJson} pageType = "People"/>
+      	    </Route>
+      	    <Route exact path="/Publications">
+                  <ListPage json={publicationsJson} pageType = "Publications"/>
+      	    </Route>
             <Route exact path="/Courses">
-              <ListPage json={coursesJson} pageType = "Courses"/>
-	    </Route>
-	  </Switch>
-	</Router>
+                  <ListPage json={coursesJson} pageType = "Courses"/>
+      	    </Route>
+            <Route exact path="/Others">
+                  <ListPage json={otherGroupsJson} pageType = "Others"/>
+            </Route>
+    	    </Switch>
+    	  </Router>
       </div>
     );
   }
@@ -90,37 +84,88 @@ class NavBar extends Component {
     super(props);
     this.handleClick = this.handleClick.bind(this);
 
-    this.toggle = this.toggle.bind(this);
     this.state = {
-      isOpen: true
+      isMobile: false,
+      isOpen: false,
+      currentPage: null
     };
 
   }
 
   handleClick(pageName){
     this.props.loadPage(pageName);
+    let newState = {...this.state};
+    newState.currentPage = pageName;
+    this.setState(newState);
   }
 
-  toggle() {
+  handleWindowSizeChange = () => {
+    let newState = {...this.state};
+    if (window.innerWidth < 760){ // tentative width for mobile cutoff
+      newState.isMobile = true;
+    } else {
+      newState.isMobile = false;
+    }
+    this.setState(newState);
+  }
+
+  toggle = () => {
     this.setState({
-      isOpen: !this.state.isOpen
+        isOpen: !this.state.isOpen
     });
+  }
+
+  componentDidMount(){
+    this.handleWindowSizeChange();
+    window.addEventListener('resize', this.handleWindowSizeChange);
   }
 
   render(){
     let pagesArray = pagesJson.pages;
     let pages = pagesArray.map(
       (page) => <NavOption
+                  highlight={page.extension === this.state.currentPage}
                   key={pagesArray.indexOf(page)}
                   title={page.title}
-	          extension={page.extension}
+	                extension={page.extension}
                   onClick={this.handleClick}
                 />
     );
 
+    let mobileNav = 
+    <div>
+      <div className="MobileNav">
+          <img 
+            src="/images/hamburger_icon.svg"
+            alt=""
+            onClick={this.toggle}
+          />
+          <span>
+            {pages[0]}
+          </span>
+          <div className={`MobileNavLinks${this.state.isOpen ? " Open" : ""}`}>
+            {
+              this.state.isOpen
+
+              ?
+
+              <div>
+                {pages.slice(1, pages.length).map(
+                  (page, idx) => <div key={idx}>{page}</div>
+                )}
+              </div>
+
+              :
+              
+              <span></span> 
+            }
+          </div>
+      </div>
+    </div>;
+
     return(
       <div className="NavBar">
-          {pages}
+          {this.state.isMobile ? mobileNav : pages}
       </div>
     );
 
@@ -147,7 +192,11 @@ class NavOption extends Component {
   render(){
     return(
       <Link to={"/" + this.props.extension}>
-        <span onClick={this.handleClick} className="NavOption" id={this.props.extension}>
+        <span 
+          onClick={this.handleClick} 
+          className={`NavOption${this.props.highlight ? " active" : ""}`}
+          id={this.props.extension}
+        >
           {this.props.title}
         </span>
       </Link>
@@ -170,47 +219,40 @@ class NavOption extends Component {
  */
 class HomePage extends Component {
   render(){
-    let allProjects = projectsJson.entries;
-    let featuredProjects = allProjects.filter(
-      function(value, index, arr){
-        return (value.onFrontPage === true);
-      }
+
+    let goalsList = homeJson.goals.map((goal, idx) => 
+      <li key={idx} className="Goal">{goal}</li>
     );
 
-    let projList = featuredProjects.map(
-      (project) => <li key={featuredProjects.indexOf(project)}>
-          <div>{project.title}</div>
-          <div>{project.description}</div>
-          <div> {getTopPublications(2, project.projectId, publicationsJson)} </div>
-      </li>
+    let recentPubs = getRecentPublications(3, publicationsJson);
+    let pubList = recentPubs.map((pub, idx) => 
+      <div className={"PubCard"} key={idx}>
+        <a href={pub.url}>{pub.title}</a>
+        <p>{pub.conference}</p>
+      </div>
     );
 
     return(
       <div className="Home">
-        <div className="Top">
+        <div className="HomeImage">
           <div className="Statement">
-            <strong>Our goal</strong> is to investigate sociable systems for mediated communication.
-            This encompasses a wide range of areas:<br/><br/>
-
-            ➭ Explore and build virtual-physical spaces for mediated communication<br/>
-            ➭ Build communication objects that connect people and/or spaces<br/>
-            ➭ Build interactive interfaces that connect spaces<br/>
-            ➭ Visualize and study how people interact within social spaces<br/><br/>
-            And more!
+            <h1>Welcome to Social Spaces</h1>
+            <p>{homeJson.statement}</p>
+            <div>{goalsList}</div>
           </div> 
-	  <img src={process.env.PUBLIC_URL + "images/frontpage3.jpg"} style={{width:"100%"}}/>
-        <hr />
+        </div>
         <div className="WhatsNew">
           <h2>What's New</h2>
-          {projList}
+          <div className="HomePubList">{pubList}</div>
         </div>
-        </div>
+        <p className="Caption">
+          Image: A protest in Urbana, July 2020. Illust. Joon Park
+        </p>
       </div>
 
     );
   }
 }
-
 
 
 export default App;

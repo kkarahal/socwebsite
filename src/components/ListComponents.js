@@ -3,13 +3,9 @@ import PropTypes from 'prop-types';
 
 import { Person } from './ListItemComponents/Person';
 import { Alumni } from './ListItemComponents/Alumni';
-import { Project } from './ListItemComponents/Project';
 import { Publication } from './ListItemComponents/Publication';
 import { Course } from './ListItemComponents/Course';
-import { Topic } from './ListItemComponents/Topic'
 
-import {getMatchingPublications} from '../utils/utils.js'
-import {getTopPublications} from '../utils/utils.js'
 import Grid from '@material-ui/core/Grid';
 
 
@@ -19,11 +15,10 @@ export const PeopleList = (props) => {
   let currentPeople;
   let alumniPeople;
   currentPeople = people.filter(list => {
-    return list.status.toLowerCase() == "current student";
+    return list.status.toLowerCase() === "current student";
   });
-  console.log(currentPeople);
   alumniPeople = people.filter(list => {
-    return list.status.toLowerCase() == "alumni";
+    return list.status.toLowerCase() === "alumni";
   });
 
   return (
@@ -31,13 +26,13 @@ export const PeopleList = (props) => {
       <Grid item xs={10} sm={8}>
 
        <div className="StudentList">Faculty</div>
-       <Grid container className="Person" justify="flex-start" spacing={3}>
+       <Grid container className="Person" justify="flex-start" spacing={8}>
           <Grid item>
           <div className="ImageContainer">
-            <img className="Image" src="http://social.cs.uiuc.edu/people/images/people%20pics/karrie.jpg" />
+            <img className="Image" alt="Karrie Karahalios" src={process.env.PUBLIC_URL + "/images/mit-karrie.jpg"} />
           </div>
           </Grid>
-          <Grid item container xs={8} spacing={3} justify="flex-start" direction="column">
+          <Grid item container xs={8} spacing={8} justify="flex-start" direction="column">
             <Grid item>
               <div className="Name">Karrie Karahalios</div>
             </Grid>
@@ -45,19 +40,8 @@ export const PeopleList = (props) => {
               <div className="FacultyRole">Professor of Computer Science</div>
             </Grid>
 
-            <Grid container className="FacultyContact" justify="flex-start" spacing={2}>
-              <Grid container xs={3} justify="flex-start" direction="column">
-                <Grid item>
-                  <div className="label">Email</div>
-                </Grid>
-                <Grid item>
-                  <div className="label">Phone</div>
-                </Grid>
-                <Grid item>
-                  <div className="label">Address</div>
-                </Grid>
-              </Grid>
-              <Grid container xs={9} className="info" justify="flex-start" direction="column">
+            <Grid container className="FacultyContact" justify="flex-start" spacing={8}>
+              <Grid container className="info" justify="flex-start" direction="column">
                 <Grid item>
                   <div>kkarahal@illinois.edu</div>
                 </Grid>
@@ -93,9 +77,9 @@ export const PeopleList = (props) => {
         </Grid>
 
         <div className="StudentList">Alumni</div>
-        <Grid container className="People" justify="flex-start" spacing={16}>
+        <Grid container className="People" justify="flex-start" spacing={32}>
           {alumniPeople.map(person => (
-            <Grid key={people.indexOf(person)} item lg={2}>
+            <Grid item key={people.indexOf(person)} lg={2}>
               <Alumni
                 name={person.name}
                 pageUrl={person.pageUrl}
@@ -103,7 +87,7 @@ export const PeopleList = (props) => {
                 status={person.status}
                 degree={person.degree}
                 currentRole={person.currentRole}
-                gradYear={person.gradYear}
+                gradYear={parseInt(person.gradYear, 10)}
               />
             </Grid>
           ))}
@@ -178,5 +162,35 @@ export const CourseList = (props) => {
 }
 
 CourseList.propTypes = {
+  json: PropTypes.object.isRequired
+};
+
+
+export const GroupList = (props) => {
+  let groups = props.json.entries;
+
+  return (
+    <Grid container justify="center">
+      <Grid item xs={10} sm={8} md={8} lg={6}>
+      {groups.map(
+        (group, idx) => <li className="Group" key={`group-${idx}`}>
+                      <div className="GroupName">
+                        {
+                          group.url !== ""
+                          ?
+                          <a href={group.url}>{group.name}</a>
+                          :
+                          <span>{group.name}</span>
+                        }
+                      </div>
+                      <div className="GroupDescription">{group.description}</div>
+                   </li>
+      )}
+      </Grid>
+    </Grid>
+  );
+}
+
+GroupList.propTypes = {
   json: PropTypes.object.isRequired
 };
