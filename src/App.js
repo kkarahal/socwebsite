@@ -136,7 +136,7 @@ class NavBar extends Component {
     <div>
       <div className="MobileNav">
           <img 
-            src="/images/hamburger_icon.svg"
+            src={process.env.PUBLIC_URL +"/images/hamburger_icon.svg"}
             alt=""
             onClick={this.toggle}
           />
