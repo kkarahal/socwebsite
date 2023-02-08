@@ -191,7 +191,6 @@ $home-height: 150vh;
 /* for tablets and up */
 @media only screen and (min-width: $tablet-min-width){
   .Home {
-    background-image: url("/images/home_lighter.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom;

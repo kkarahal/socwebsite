@@ -233,7 +233,9 @@ class HomePage extends Component {
     );
 
     return(
-      <div className="Home">
+      <div className="Home" style={{
+	      backgroundImage: 'url(' + process.env.PUBLIC_URL + '/images/home_lighter.png)'
+      }}>
         <div className="HomeImage">
           <div className="Statement">
             <h1>Welcome to Social Spaces</h1>
