@@ -43,7 +43,7 @@ class App extends Component {
 
     return(
       <div className="App">
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <NavBar json={pagesJson} loadPage={this.goToPage}/>
           <Switch>
       	    <Route exact path="/">
