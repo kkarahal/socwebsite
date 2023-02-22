@@ -28,7 +28,7 @@ export const Publication = (props) => {
         </div>
       </div>
       <div className="Description">
-        <a href={props.url}>
+        <a href={props.url} type="application/pdf">
           <img src={process.env.PUBLIC_URL+"/images/pdf.png"} alt="" className="PdfIcon"/>
         </a><br/>
       </div>
