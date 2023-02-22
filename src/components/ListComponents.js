@@ -118,7 +118,7 @@ export const PublicationList = (props) => {
                           description={publication.description}
                           year={publication.year}
                           conference={publication.conference}
-                          url={process.env.PUBLIC_URL + publication.url}
+                          url={process.env.PUBLIC_URL + publication.url.split('').splice(1,).join('')}
                           authors={publication.authorIds}
                           awards={publication.awards}
                           topics={publication.topics}
