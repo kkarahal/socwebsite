@@ -1,6 +1,25 @@
 {
     "entries": [
         {
+            "photoUrl": "",
+            "title": "\"I can show what I really like.\": Eliciting Preferences via Quadratic Voting",
+            "url": "/papers/tcheng10/[p]Cheng_2021_I_can_show_qv.pdf",
+            "year": 2021,
+            "conference": "CSCW 2021",
+            "authorIds": [
+                "tcheng10",
+                "wenting7",
+                "Y.H. Chou",
+                "kkarahal",
+                "H. Sundaram"
+            ],
+            "awards": [],
+            "topics": [
+                "Other"
+            ],
+            "description": ""
+        },
+        {
             "photoUrl": "/images/staircase.png",
             "title": "Live Streaming Intensifies Emotions: Evidence from Live and Retrospective Comments on YouTube",
             "url": "#",
