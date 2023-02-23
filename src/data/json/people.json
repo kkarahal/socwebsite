@@ -539,6 +539,16 @@
             "gradYear": "",
             "pageUrl": "https://www.ziangxiao.com/",
             "researchDesc": "I am interested in how we can use technology to better understand human behavior and what\u2019s the role of technology in persuasion. Recently, I work on conversational agents with focus on information elicitation, trust, emotion, and long-term companionship."
+        },
+        {
+            "photoUrl": "/images/xz90.jpg",
+            "name": "Owen Xingjian Zhang",
+            "netId": "xz90",
+            "degree": "BS",
+            "status": "Current Student",
+            "gradYear": "",
+            "pageUrl": "xz90.github.io",
+            "researchDesc": "I am primarily curious about how social technologies form people's persona and shape their behaviors, how they can enhance the representation of minorities, and how they can improve teamwork efficiency."
         }
     ]
 }
