@@ -507,8 +507,8 @@
             "degree": "PhD",
             "status": "Current Student",
             "gradYear": "",
-            "pageUrl": "",
-            "researchDesc": ""
+            "pageUrl": "https://silashsu.wordpress.com/",
+            "researchDesc": "I work in the very broad area of human-AI interaction. My current projects span: (1) AI for education, (2) understanding algorithmic literacy in the US, and (3) defining human agency and oversight over AI and clarifying the benefits of human agency."
         },
         {
             "photoUrl": "/images/heather.jpg",
@@ -516,7 +516,7 @@
             "netId": "hh11",
             "degree": "MS",
             "status": "Alumni",
-            "gradYear": "",
+            "gradYear": 2020,
             "pageUrl": "https://heabuh.com",
             "researchDesc": ""
         },
@@ -560,7 +560,7 @@
             "pageUrl": "xz90.github.io",
             "researchDesc": "I am primarily curious about how social technologies form people's persona and shape their behaviors, how they can enhance the representation of minorities, and how they can improve teamwork efficiency."
         },
-	{
+	    {
             "photoUrl": "/images/sayantanibasu.jpeg",
             "name": "Sayantani Basu",
             "netId": "basu9",
@@ -569,6 +569,16 @@
             "gradYear": "",
             "pageUrl": "sayantanibasu.com",
             "researchDesc": "I am interested in deep learning and visualizations in healthcare, particularly implementing algorithms and interfaces."
+        },
+        {
+            "photoUrl": "",
+            "name": "Zhilin Zhang",
+            "netId": "zhilinz2",
+            "degree": "MS",
+            "status": "Alumni",
+            "gradYear": 2021,
+            "pageUrl": "https://www.zhilinzhang.com/",
+            "researchDesc": ""
         }
     ]
 }
