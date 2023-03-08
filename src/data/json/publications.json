@@ -2,6 +2,26 @@
     "entries": [
         {
             "photoUrl": "",
+            "title": "\"A User-Centric Evaluation of Smart Home Resolution Approaches for Conflicts Between Routines",
+            "url": "",
+            "year": 2021,
+            "conference": "Ubicomp 2023",
+            "authorIds": [
+                "aliz2",
+                "R. Yang", 
+                "vkoshy2",
+                "C. Cobb",
+                "I. Gupta",
+                "kkarahal"
+            ],
+            "awards": [],
+            "topics": [
+                "Other"
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
             "title": "\"I can show what I really like.\": Eliciting Preferences via Quadratic Voting",
             "url": "/papers/tcheng10/[p]Cheng_2021_I_can_show_qv.pdf",
             "year": 2021,
