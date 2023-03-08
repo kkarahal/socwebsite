@@ -23,6 +23,27 @@
         {
             "photoUrl": "",
             "title": "\"I can show what I really like.\": Eliciting Preferences via Quadratic Voting",
+            "url": "/papers/HsuLi-CHI21-aiautograder.pdf",
+            "year": 2021,
+            "conference": "CHI 2021",
+            "authorIds": [
+                "silash2",
+                "wenting7",
+                "zhilinz2",
+                "M. Fowler",
+                "C. Zilles",
+                "kkarahal"
+            ],
+            "awards": [],
+            "topics": [
+                "Algorithmic Experience",
+                "Educational Technology"
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "\"I can show what I really like.\": Eliciting Preferences via Quadratic Voting",
             "url": "/papers/tcheng10/[p]Cheng_2021_I_can_show_qv.pdf",
             "year": 2021,
             "conference": "CSCW 2021",
