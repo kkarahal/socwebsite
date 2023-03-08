@@ -569,6 +569,16 @@
             "gradYear": "",
             "pageUrl": "",
             "researchDesc": "I am interested in human-algorithmic interaction, specifically investigating how to effectively integrate automated assistance into established workflows related to decision making."
-        }
+        },
+	{
+            "photoUrl": "/images/sayantanibasu.jpeg",
+            "name": "Sayantani Basu",
+            "netId": "basu9",
+            "degree": "PhD",
+            "status": "Current Student",
+            "gradYear": "",
+            "pageUrl": "sayantanibasu.com",
+            "researchDesc": "I am interested in deep learning and visualizations in healthcare, particularly implementing algorithms and interfaces."
+    }
     ]
 }
