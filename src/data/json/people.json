@@ -561,6 +561,16 @@
             "researchDesc": "I am primarily curious about how social technologies form people's persona and shape their behaviors, how they can enhance the representation of minorities, and how they can improve teamwork efficiency."
         },
         {
+            "photoUrl": "/images/aliz2_fa23.jpg",
+            "name": "Ali Zaidi",
+            "netId": "aliz2",
+            "degree": "PhD",
+            "status": "Current Student",
+            "gradYear": "",
+            "pageUrl": "",
+            "researchDesc": "I am interested in human-algorithmic interaction, specifically investigating how to effectively integrate automated assistance into established workflows related to decision making."
+        },
+        {
             "photoUrl": "/images/samuel_atcheson.jpeg",
             "name": "Alex Atcheson",
             "netId": "samuela7",
@@ -579,6 +589,6 @@
             "gradYear": "",
             "pageUrl": "sayantanibasu.com",
             "researchDesc": "I am interested in deep learning and visualizations in healthcare, particularly implementing algorithms and interfaces."
-        }
+    }
     ]
 }
