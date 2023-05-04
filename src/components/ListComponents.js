@@ -29,7 +29,7 @@ export const PeopleList = (props) => {
        <Grid container className="Person" justify="flex-start" spacing={8}>
           <Grid item>
           <div className="ImageContainer">
-            <img className="Image" alt="Karrie Karahalios" src={process.env.PUBLIC_URL + "/images/mit-karrie.jpg"} />
+            <img className="Image" alt="Karrie Karahalios" src={process.env.PUBLIC_URL + "/images/mit-karrie.jpeg"} />
           </div>
           </Grid>
           <Grid item container xs={8} spacing={8} justify="flex-start" direction="column">
