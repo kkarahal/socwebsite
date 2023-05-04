@@ -4,7 +4,7 @@
       "netId": "kkarahal",
       "status": "advisor",
       "degree": "PhD",
-      "photoUrl": "http://social.cs.uiuc.edu/people/images/people%20pics/karrie.jpg",
+      "photoUrl": "http://social.cs.uiuc.edu/people/images/people%20pics/kkarahal.jpg",
       "name": "Karrie G Karahalios",
       "pageUrl": "http://social.cs.uiuc.edu/",
       "position": "Professor of Computer Science",
@@ -26,7 +26,11 @@
           "Motorola Young Faculty Award, 2005",
           "CHI Best Paper Award, 2017, 2015, 2009, 2008",
           "CSCW Best Paper Award, 2010",
-          "CHI Honorable Mention Award, 2018"
+	  "Dean's Award for Excellence in Research",
+          "CHI Honorable Mention Award, 2018",
+	  "UIUC University Scholar, 2020",
+          "NCSA Fiddler Fellow, 2023"
+
       ]
     }
   ]
