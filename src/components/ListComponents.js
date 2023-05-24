@@ -34,7 +34,7 @@ export const PeopleList = (props) => {
           </Grid>
           <Grid item container xs={8} spacing={8} justify="flex-start" direction="column">
             <Grid item>
-              <div className="Name">Karrie Karahalios</div>
+              <a href="http://www.karriekarahalios.com" className="Name">Karrie Karahalios</a>
             </Grid>
             <Grid item>
               <div className="FacultyRole">Professor of Computer Science</div>
