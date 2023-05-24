@@ -58,7 +58,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://vinyoshy2.github.io/socwebsite",
+  "homepage": ".",
   "devDependencies": {
     "babel-plugin-require-all": "0.0.1",
     "gh-pages": "^2.0.0",
