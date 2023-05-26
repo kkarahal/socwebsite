@@ -1,5 +1,15 @@
 {
     "entries": [
+	{
+	    "photoUrl": "/images/swathiram.png",
+            "name": "Swathi Ram",
+            "netId": "swathir3",
+            "degree": "BS",
+            "status": "Alumni",
+            "gradYear": 2023,
+            "pageUrl": "",
+            "currentRole": ""
+	},
         {
             "photoUrl": "/images/mpietrowicz.jpg",
             "name": "Mary Pietrowicz",
