@@ -1,8 +1,452 @@
 {
     "entries": [
         {
+                "photoUrl": "",
+                "title": "Characterizing Scalability Issues in Spreadsheet Software using Online Forums (Case Study)",
+                "url": "https://doi.org/10.1145/3170427.3174359",
+                "year": 2018,
+                "conference": "CHI 2018 Case Studies",
+                "authorIds": [
+                    "K. Mack",
+                    "J. Lee",
+                    "K. Chang",
+                    "kkarahal",
+                    "A. Parameswaran"
+                ],
+                "awards": [],
+                "topics": [   
+                ],
+                "description": ""
+        },
+        {
             "photoUrl": "",
-            "title": "\"A User-Centric Evaluation of Smart Home Resolution Approaches for Conflicts Between Routines",
+            "title": "Structure or Nurture? The Effects of Team-Building Activities and Team Composition on Team Outcomes",
+            "url": "https://doi.org/10.1145/3274337",
+            "year": 2023,
+            "conference": "CSCW 2018",
+            "authorIds": [
+                "E. Hastings",
+                "F. Jahanbakhsh",
+                "kkarahal",
+                "D. Marinov",
+                "B. Bailey"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "DIMENSIONAL ANALYSIS OF LAUGHTER IN FEMALE CONVERSATIONAL SPEECH",
+            "url": "",
+            "year": 2019,
+            "conference": "ICASSP 2019",
+            "authorIds": [
+                "M. Pietrowicz",
+                "C. Agurto",
+                "J. Casebeer",
+                "M. Hasegawa-Johnson",
+                "kkarahal",
+                "G. Ceechi"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "Quantifying Voter Biases in Online Platforms: An Instrumental Variable Approach",
+            "url": "",
+            "year": 2019,
+            "conference": "CSCW 2019",
+            "authorIds": [
+                "H. Dev",
+                "kkarahal",
+                "H. Sundaram"
+            ],
+            "awards": ["Honorable Mention"],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "Should We Use an Abstract Comic Form to Persuade? Experiments with Online Charitable Donation",
+            "url": "https://doi.org/10.1145/3359177",
+            "year": 2019,
+            "conference": "CSCW 2019",
+            "authorIds": [
+                "zxiao5",
+                "P. Ho",
+                "X. Wang",
+                "kkarahal",
+                "H. Sundaram"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "You can’t always sketch what you want: Understanding Sensemaking in Visual Query Systems.",
+            "url": "https://doi.org/10.1109/TVCG.2019.2934666",
+            "year": 2019,
+            "conference": "VAST 2019",
+            "authorIds": [
+                "D. Lee",
+                "jlee",
+                "T. Siddiqui",
+                "J. Kim",
+                "kkarahal",
+                "A. Parameswaran"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "Auditing Race and Gender Discrimination in Online Housing Markets",
+            "url": "https://doi.org/10.1609/icwsm.v14i1.7276",
+            "year": 2020,
+            "conference": "ICWSM 2020",
+            "authorIds": [
+                "J. Asplund",
+                "meslami",
+                "H. Sundaram",
+                "C. Sandvig",
+                "kkarahal"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "LIFT: Integrating Stakeholder Voices into Algorithmic Team Formation",
+            "url": "http://dx.doi.org/10.1145/3313831.3376797",
+            "year": 2020,
+            "conference": "CHI 2020",
+            "authorIds": [
+                "E. Hastings",
+                "A. Alamri", 
+                "A. Kuznestov",
+                "C. Pisarczyk",
+                "kkarahal",
+                "D. Marinov",
+                "B. Bailey"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "Random, Messy, Funny, Raw: Finstas as Intimate Reconfigurations of Social Media",
+            "url": "http://dx.doi.org/10.1145/3313831.3376424",
+            "year": 2020,
+            "conference": "CHI 2020",
+            "authorIds": [
+                "S. Xiao",
+                "D. Metaxa",
+                "jp19",
+                "kkarahal",
+                "N. Salehi"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "Addressing Cognitive and Emotional Barriers in Parent-Clinician Communication through Behavioral Visualization Webtools ",
+            "url": "https://doi.org/10.1145/3313831.3376181",
+            "year": 2020,
+            "conference": "CHI 2020",
+            "authorIds": [
+                "H. Kong",
+                "kkarahal"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "Awareness, Navigation, and Use of Feed Control Settings Online",
+            "url": "https://doi.org/10.1145/3313831.3376583",
+            "year": 2020,
+            "conference": "CHI 2020",
+            "authorIds": [
+                "silash2",
+                "kvaccaro",
+                "yuey2",
+                "A. Rickman",
+                "kkarahal"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "Enriched Social Translucence in Medical Crowdfunding",
+            "url": "http://dx.doi.org/10.1145/3357236.3395520",
+            "year": 2020,
+            "conference": "DIS 2020",
+            "authorIds": [
+                "jkim",
+                "H. Kong",
+                "H. Hong",
+                "kkarahal"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "Benchmarking Spreadsheet Systems",
+            "url": "https://doi.org/10.1145/3318464.3389782",
+            "year": 2020,
+            "conference": "SIGMOD 2020",
+            "authorIds": [
+                "S. Rahman",
+                "K. Mack", 
+                "M. Bendre",
+                "R. Zhang",
+                "kkarahal",
+                "A. Parameswaran"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "ShapeSearch: A Flexible and Efficient System for Shape-based Exploration of Trendlines",
+            "url": " https://doi.org/10.1145/3318464.3389722",
+            "year": 2020,
+            "conference": "SIGMOD 2020",
+            "authorIds": [
+                "T. Siddiqui",
+                "P. Luh",
+                "Z. Wang", 
+                "kkarahal",
+                "A. Parameswaran"
+            ],
+            "awards": ["Best Paper"],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "Three Lessons from Accelerating Scientific Insight Discovery via Visual Querying",
+            "url": "https://doi.org/10.1016/j.patter.2020.100126",
+            "year": 2020,
+            "conference": "Patterns 2020",
+            "authorIds": [
+                "D. Lee",
+                "T. Siddiqui",
+                "kkarahal",
+                "A. Parameswaran"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "\"It's all about conversation\": Challenges and Concerns of Faculty and Students in the Arts, Humanities, and the Social Sciences about Education at Scale",
+            "url": "https://doi.org/10.1145/3432915",
+            "year": 2020,
+            "conference": "CSCW 2020",
+            "authorIds": [
+                "wenting7",
+                "kkarahal",
+                "H. Sundaram"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "\"At the End of the Day Facebook Does What It Wants\": How Users Experience Contesting Algorithmic Content Moderation",
+            "url": "https://doi.org/10.1145/3415238",
+            "year": 2020,
+            "conference": "CSCW 2020",
+            "authorIds": [
+                "kvaccaro",
+                "C. Sandvig",
+                "kkarahal"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "StreamSketch: Exploring Multi-Modal Interactions in Creative Live Streams",
+            "url": "https://doi.org/10.1145/1122445.1122456",
+            "year": 2021,
+            "conference": "CSCW 2021",
+            "authorIds": [
+                "Z. Lu",
+                "R. Kazi", 
+                "L. Wei",
+                "M. Dontcheva",
+                "kkarahal"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "\"We Just Use What They Give Us\": Understanding Passenger User Perspectives in Smart Homes",
+            "url": "https://doi.org/10.1145/3411764.3445598",
+            "year": 2021,
+            "conference": "CHI 2021",
+            "authorIds": [
+                "vkoshy2",
+                "jp19",
+                "tcheng10",
+                "kkarahal"
+            ],
+            "awards": ["Honorable Mention"],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "Atitudes Surrounding an Imperfect AI Autograder",
+            "url": "https://doi.org/10.1145/3411764.3445424",
+            "year": 2021,
+            "conference": "CHI 2021",
+            "authorIds": [
+                "silash2",
+                "wenting7",
+                "Z. Zhang",
+                "M. Fowler", 
+                "C. Zilles",
+                "kkarahal"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "Deconstructing Categorization in Visualization Recommendation: A Taxonomy and Comparative Study",
+            "url": "https://doi.org/10.1109/TVCG.2021.3085751",
+            "year": 2021,
+            "conference": "InfoVis 2021",
+            "authorIds": [
+                "D. Lee",
+                "V. Setlur",
+                "M. Tory",
+                "kkarahal",
+                "A. Parameswaran"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "NOAH: Interactive Spreadsheet Exploration with Dynamic Hierarchical Overviews",
+            "url": "https://doi.org/10.14778/3447689.3447701",
+            "year": 2021,
+            "conference": "VLDB 2021",
+            "authorIds": [
+                "S. Rahman",
+                "M. Bendre",
+                "Y. Liu",
+                "S. Zhu",
+                "Z. Su",
+                "kkarahal",
+                "A. Parameswaran"
+            ],
+            "awards": [],
+            "topics": [
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "Contestability For Content Moderation",
+            "url": "https://doi.org/10.1145/3476059",
+            "year": 2021,
+            "conference": "CSCW 2021",
+            "authorIds": [
+                "kvaccaro",
+                "zxiao5",
+                "K. Hamilton",
+                "kkarahal"
+            ],
+            "awards": [],
+            "topics": [
+                
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "Designing a Medical Crowdfunding Website from Sense of Community Theory",
+            "url": "",
+            "year": 2022,
+            "conference": "CSCW 2022",
+            "authorIds": [
+                "jkim",
+                "R. E. Kraut",
+                "kkarahal"
+            ],
+            "awards": [],
+            "topics": [
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "Re-imagining the Power of Priming and Framing Efects in the Context of Political Crowdfunding Campaigns",
+            "url": "https://doi.org/10.1145/3491102.3502084",
+            "year": 2022,
+            "conference": "CHI 2022",
+            "authorIds": [
+                "sdey4",
+                "B. Duff",
+                "kkarahal"
+            ],
+            "awards": [],
+            "topics": [
+                
+            ],
+            "description": ""
+    },
+        
+        {
+            "photoUrl": "",
+            "title": "A User-Centric Evaluation of Smart Home Resolution Approaches for Conflicts Between Routines",
             "url": "https://dl.acm.org/doi/10.1145/3581997",
             "year": 2023,
             "conference": "Ubicomp 2023",
