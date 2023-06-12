@@ -1,5 +1,25 @@
 {
     "entries": [
+	{
+	    "photoUrl": "/images/zhilin_zhang.jpeg",
+            "name": "Zhilin Zhang",
+            "netId": "zhilinz2",
+            "degree": "BS+MS",
+            "status": "Alumni",
+            "gradYear": 2021,
+            "pageUrl": "https://www.zhilinzhang.com/",
+            "currentRole": "University of Oxford"
+	},
+	{
+	    "photoUrl": "/images/swathiram.png",
+            "name": "Swathi Ram",
+            "netId": "swathir3",
+            "degree": "BS",
+            "status": "Alumni",
+            "gradYear": 2023,
+            "pageUrl": "",
+            "currentRole": ""
+	},
         {
             "photoUrl": "/images/mpietrowicz.jpg",
             "name": "Mary Pietrowicz",
@@ -437,7 +457,7 @@
             "degree": "PhD",
             "status": "Current Student",
             "gradYear": "",
-            "pageUrl": "vinyoshy2.github.io",
+            "pageUrl": "https://vinyoshy2.github.io",
             "researchDesc": "I conduct large-scale quantitative studies and build tools to help diverse online communities moderate themselves more effectively. I have a particular interest in helping communities resolve disagreements over moderation practices."
         },
         {
@@ -587,7 +607,7 @@
             "degree": "PhD",
             "status": "Current Student",
             "gradYear": "",
-            "pageUrl": "sayantanibasu.com",
+            "pageUrl": "https://sayantanibasu.com",
             "researchDesc": "I am interested in deep learning and visualizations in healthcare, particularly implementing algorithms and interfaces."
     }
     ]
