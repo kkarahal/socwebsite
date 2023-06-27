@@ -70,21 +70,21 @@ export function getMatchingPubsByTopics(topics){
   return matchingPubs;
 }
 
-// topic: a string representing a topic, or "ALL" for all topics
+// topic: a string representing a topic, or "All" for all topics
 // CURRENT - returns all publications that have this topic tagged,
-//           or every publication in the json if topic === "ALL"
+//           or every publication in the json if topic === "All"
 export function getMatchingPubsByTopic(topic){
-  let allPublications = publicationsJson.entries;
-
+  let allPubs = publicationsJson.entries;
 
   if (topic === "All"){
-    return allPublications;
+    allPubs.sort((a, b) => (a.year < b.year) ? 1 : -1);
+    return allPubs;
   }
 
-  let matchingPubs = allPublications.filter(
-    function(publication){
+  let matchingPubs = allPubs.filter(
+    function(pub){
       const equalTopi = (topi) => topi.trim() === topic;
-      if (publication.topics.some(equalTopi)) {
+      if (pub.topics.some(equalTopi)) {
         return true;
       }
       return false;

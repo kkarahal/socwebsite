@@ -66,7 +66,7 @@ export const PeopleList = (props) => {
             <Grid key={people.indexOf(person)} item xs={12} sm={6}>
               <Person
                 name={person.name}
-		researchDesc = {person.researchDesc}
+		            researchDesc={person.researchDesc}
                 pageUrl={person.pageUrl}
                 photoUrl={person.photoUrl}
                 status={person.status}
@@ -118,7 +118,7 @@ export const PublicationList = (props) => {
                           description={publication.description}
                           year={publication.year}
                           conference={publication.conference}
-                          url={process.env.PUBLIC_URL + publication.url}
+                          url={publication.url} // was process.env.PUBLIC_URL + publication.url
                           authors={publication.authorIds}
                           awards={publication.awards}
                           topics={publication.topics}

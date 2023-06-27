@@ -66,12 +66,11 @@ export class PublicationListContainer extends Component {
     this.setState({
       displayTopic: topicName
     });
-
   }
 
   render(){
 
-    let publications = getMatchingPubsByTopic(this.state.displayTopic);
+    let publications = getMatchingPubsByTopic(this.state.displayTopic);    
     let topics = this.props.json.topics;
     let topicsMap = topics.map(
       (topic, idx) => <Topic

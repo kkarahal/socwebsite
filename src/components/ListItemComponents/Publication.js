@@ -8,6 +8,14 @@ import './Publication.scss';
 export const Publication = (props) => {
   let authorList = getMatchingAuthorNames(props.authors);
 
+  // check if paper is stored locally or on web
+  let paper_loc = null;
+  if (props.url.includes("https://") || props.url.includes("http://")) {
+    paper_loc = props.url;
+  } else {
+    paper_loc = process.env.PUBLIC_URL + props.url;
+  }
+
   /*const handleTopicClick = (topicName) => {
     props.handleTopicClick(topicName);
   }*/ // uncomment if we ever want to reimplement clickable topics
@@ -28,8 +36,8 @@ export const Publication = (props) => {
         </div>
       </div>
       <div className="Description">
-        <a href={props.url} type="application/pdf">
-          <img src={process.env.PUBLIC_URL+"/images/pdf.png"} alt="" className="PdfIcon"/>
+        <a download href={paper_loc} type="application/pdf">
+          <img src={process.env.PUBLIC_URL + "/images/pdf.png"} alt="" className="PdfIcon"/>
         </a><br/>
       </div>
     </div>

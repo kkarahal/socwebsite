@@ -20,7 +20,7 @@ fi
 
 # STEP 2: copy build dir contents over to cPanel host.
 
-echo "Transferring build... This may take several minutes."
+echo "Transferring build. This may take several minutes..."
 
 rsync -r "$BUILD_DIR/" "$USER@$HOSTNAME:$DEST"
 
