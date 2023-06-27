@@ -1,6 +1,23 @@
 {
     "entries": [
         {
+            "photoUrl": "",
+            "title": "Inform the Uninformed: Improving Online Informed Consent Reading with an AI-Powered Chatbot",
+            "url": "https://doi.org/10.1145/3544548.3581252",
+            "year": 2023,
+            "conference": "CHI 2023",
+            "authorIds": [
+                "zxiao5",
+                "wenting7",
+                "kkarahal",
+                "H. Sundaram"
+            ],
+            "awards": [],
+            "topics": [   
+            ],
+            "description": ""
+    },
+        {
                 "photoUrl": "",
                 "title": "Characterizing Scalability Issues in Spreadsheet Software using Online Forums (Case Study)",
                 "url": "https://doi.org/10.1145/3170427.3174359",
