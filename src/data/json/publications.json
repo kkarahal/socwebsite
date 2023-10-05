@@ -13,10 +13,31 @@
                 "H. Sundaram"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
     },
+    {
+        "photoUrl": "",
+        "title": "Microbiome Metabolome Integration Platform (MMIP): a web-based platform for microbiome and metabolome data integration and feature identification",
+        "url": "https://doi.org/10.1093/bib/bbad325",
+        "year": 2023,
+        "conference": "Briefings in Bioinformatics",
+        "authorIds": [
+            "A. Gautam",
+            "D. Bhowmik",
+            "basu9",
+            "W. Zeng",
+            "A. Lahiri",
+            "D. Huson",
+            "S. Paul"
+        ],
+        "awards": [],
+        "topics": [ "Visualization",
+                    "Other"
+        ],
+        "description": ""
+      },
         {
                 "photoUrl": "",
                 "title": "Characterizing Scalability Issues in Spreadsheet Software using Online Forums (Case Study)",
@@ -31,7 +52,7 @@
                     "A. Parameswaran"
                 ],
                 "awards": [],
-                "topics": [   
+                "topics": [
                 ],
                 "description": ""
         },
@@ -49,7 +70,7 @@
                 "B. Bailey"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -68,7 +89,7 @@
                 "G. Ceechi"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -84,7 +105,7 @@
                 "H. Sundaram"
             ],
             "awards": ["Honorable Mention"],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -102,7 +123,7 @@
                 "H. Sundaram"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -121,7 +142,7 @@
                 "A. Parameswaran"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -139,7 +160,7 @@
                 "kkarahal"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -151,7 +172,7 @@
             "conference": "CHI 2020",
             "authorIds": [
                 "E. Hastings",
-                "A. Alamri", 
+                "A. Alamri",
                 "A. Kuznestov",
                 "C. Pisarczyk",
                 "kkarahal",
@@ -159,7 +180,7 @@
                 "B. Bailey"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -177,7 +198,7 @@
                 "N. Salehi"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -192,7 +213,7 @@
                 "kkarahal"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -210,7 +231,7 @@
                 "kkarahal"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -227,7 +248,7 @@
                 "kkarahal"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -239,14 +260,14 @@
             "conference": "SIGMOD 2020",
             "authorIds": [
                 "S. Rahman",
-                "K. Mack", 
+                "K. Mack",
                 "M. Bendre",
                 "R. Zhang",
                 "kkarahal",
                 "A. Parameswaran"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -259,12 +280,12 @@
             "authorIds": [
                 "T. Siddiqui",
                 "P. Luh",
-                "Z. Wang", 
+                "Z. Wang",
                 "kkarahal",
                 "A. Parameswaran"
             ],
             "awards": ["Best Paper"],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -281,7 +302,7 @@
                 "A. Parameswaran"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -297,7 +318,7 @@
                 "H. Sundaram"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -313,7 +334,7 @@
                 "kkarahal"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -325,13 +346,13 @@
             "conference": "CSCW 2021",
             "authorIds": [
                 "Z. Lu",
-                "R. Kazi", 
+                "R. Kazi",
                 "L. Wei",
                 "M. Dontcheva",
                 "kkarahal"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -348,7 +369,7 @@
                 "kkarahal"
             ],
             "awards": ["Honorable Mention"],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -362,12 +383,12 @@
                 "silash2",
                 "wenting7",
                 "Z. Zhang",
-                "M. Fowler", 
+                "M. Fowler",
                 "C. Zilles",
                 "kkarahal"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -385,7 +406,7 @@
                 "A. Parameswaran"
             ],
             "awards": [],
-            "topics": [   
+            "topics": [
             ],
             "description": ""
         },
@@ -423,7 +444,7 @@
             ],
             "awards": [],
             "topics": [
-                
+
             ],
             "description": ""
         },
@@ -456,11 +477,11 @@
             ],
             "awards": [],
             "topics": [
-                
+
             ],
             "description": ""
     },
-        
+
         {
             "photoUrl": "",
             "title": "A User-Centric Evaluation of Smart Home Resolution Approaches for Conflicts Between Routines",
@@ -469,7 +490,7 @@
             "conference": "Ubicomp 2023",
             "authorIds": [
                 "aliz2",
-                "R. Yang", 
+                "R. Yang",
                 "vkoshy2",
                 "C. Cobb",
                 "I. Gupta",
