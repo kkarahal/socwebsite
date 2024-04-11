@@ -2,6 +2,40 @@
     "entries": [
         {
             "photoUrl": "",
+            "title": "Not What it Used to Be: Characterizing Content and User-base Changes in Newly Created Online Communities",
+            "url": "",
+            "year": 2024,
+            "conference": "CHI 2024",
+            "authorIds": [
+                "vkoshy2",
+                "samuela7",
+                "kkarahal"
+            ],
+            "awards": [],
+            "topics": ["Social Networks"
+            ],
+            "description": ""
+    },
+        {
+            "photoUrl": "",
+            "title": "Measuring User-Moderator Alignment on r/ChangeMyView",
+            "url": "https://dl.acm.org/doi/10.1145/3610077",
+            "year": 2023,
+            "conference": "CSCW 2023",
+            "authorIds": [
+                "vkoshy2",
+                "T. Bajpai",
+		"E. Chandrasekharan",
+                "H. Sundaram",
+                "kkarahal"
+            ],
+            "awards": ["Best Paper"],
+            "topics": ["Social Networks"
+            ],
+            "description": ""
+    },
+        {
+            "photoUrl": "",
             "title": "Inform the Uninformed: Improving Online Informed Consent Reading with an AI-Powered Chatbot",
             "url": "https://doi.org/10.1145/3544548.3581252",
             "year": 2023,
@@ -76,7 +110,7 @@
         },
         {
             "photoUrl": "",
-            "title": "DIMENSIONAL ANALYSIS OF LAUGHTER IN FEMALE CONVERSATIONAL SPEECH",
+            "title": "Dimensional Analysis of Laughter in Female Conversational Speech",
             "url": "",
             "year": 2019,
             "conference": "ICASSP 2019",
