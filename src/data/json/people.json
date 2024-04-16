@@ -491,7 +491,7 @@
             "researchDesc": "Most of my research looks at how to utilize computational power and interaction design to obtain truthful individual preferences for collective decision making. I also research in smart home stuffs."
         },
         {
-            "photoUrl": "",
+            "photoUrl": "/images/staircase.png",
             "name": "Kristen Vaccaro",
             "netId": "kvaccaro",
             "degree": "PhD",
@@ -571,11 +571,11 @@
             "researchDesc": "I am interested in improving computer assisted second language acquisition. In particular, I am researching what methods are effective in improving perception and pronunciation of second languages."
         },
         {
-            "photoUrl": "/images/xz90.jpg",
+            "photoUrl": "/images/staircase.png",
             "name": "Owen Xingjian Zhang",
             "netId": "xz90",
             "degree": "BS",
-            "status": "Current Student",
+            "status": "Alumni",
             "gradYear": "",
             "pageUrl": "xz90.github.io",
             "researchDesc": "I am primarily curious about how social technologies form people's persona and shape their behaviors, how they can enhance the representation of minorities, and how they can improve teamwork efficiency."
