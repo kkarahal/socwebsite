@@ -36,7 +36,7 @@ export const Publication = (props) => {
         </div>
       </div>
       <div className="Description">
-        <a download href={paper_loc} type="application/pdf">
+        <a href={paper_loc} type="application/pdf">
           <img src={process.env.PUBLIC_URL + "/images/pdf.png"} alt="" className="PdfIcon"/>
         </a><br/>
       </div>
