@@ -2,6 +2,43 @@
     "entries": [
         {
             "photoUrl": "",
+            "title": "Choosing What You Want Versus Getting What You Want: An Experiment with Choice in Video Ad Placement",
+            "url": "",
+            "year": 2024,
+            "conference": "CHI 2024",
+            "authorIds": [
+                "silash2",
+                "kkarahal"
+            ],
+            "awards": [],
+            "topics": [
+                "Algorithmic Experience"
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
+            "title": "Am I Wrong, or Is the Autograder Wrong? Effects of AI Grading Mistakes on Learning",
+            "url": "https://dl.acm.org/doi/10.1145/3568813.3600124",
+            "year": 2023,
+            "conference": "ICER 2023",
+            "authorIds": [
+                "wenting7",
+                "silash2",
+                "M. Fowler",
+                "zhilinz2",
+                "C. Zilles",
+                "kkarahal"
+            ],
+            "awards": [],
+            "topics": [
+                "Algorithmic Experience",
+                "Educational Technology"
+            ],
+            "description": ""
+        },
+        {
+            "photoUrl": "",
             "title": "\"A User-Centric Evaluation of Smart Home Resolution Approaches for Conflicts Between Routines",
             "url": "",
             "year": 2021,
@@ -22,8 +59,8 @@
         },
         {
             "photoUrl": "",
-            "title": "\"I can show what I really like.\": Eliciting Preferences via Quadratic Voting",
-            "url": "/papers/HsuLi-CHI21-aiautograder.pdf",
+            "title": "Attitudes Surrounding an Imperfect AI Autograder",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3411764.3445424",
             "year": 2021,
             "conference": "CHI 2021",
             "authorIds": [
