@@ -1,5 +1,47 @@
 {
     "entries": [
+      {
+          "photoUrl": "",
+          "title": "Fostering communication between parents and clinicians using behavioral visualizations of children with autism",
+          "url": "",
+          "year": 2024,
+          "conference": "AMIA IS 2024",
+          "authorIds": [
+              "basu9",
+              "Ban Sleiman",
+              "Kaori Terol",
+              "Christy Yoon",
+              "Melanie R Martin Loya",
+              "Jialu Li",
+              "samuela7",
+              "Siraj Siddiqi",
+              "Mark Hasegawa-Johnson",
+              "Hedda Meadan-Kaplansky",
+              "kkarahal"
+          ],
+          "awards": [],
+          "topics": [ "Visualization",
+                      "Other"
+          ],
+          "description": ""
+      },
+      {
+          "photoUrl": "",
+          "title": "Detection of Novel COVID-19 Variants with Zero-Shot Learning",
+          "url": "https://ieeexplore.ieee.org/abstract/document/10337282",
+          "year": 2023,
+          "conference": "IEEE ICHI 2023",
+          "authorIds": [
+              "basu9",
+              "R. H. Campbell",
+              "kkarahal"
+          ],
+          "awards": [],
+          "topics": [ "Visualization",
+                      "Other"
+          ],
+          "description": ""
+        },
         {
             "photoUrl": "",
             "title": "Not What it Used to Be: Characterizing Content and User-base Changes in Newly Created Online Communities",
