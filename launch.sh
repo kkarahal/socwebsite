@@ -22,6 +22,6 @@ fi
 
 echo "Transferring build. This may take several minutes..."
 
-rsync -r "$BUILD_DIR/" "$USER@$HOSTNAME:$DEST"
+rsync -av -e "ssh -i /home/$1/.ssh/id_rsa" $BUILD_DIR/ $USER@$HOSTNAME:$DEST
 
 echo "Launch complete!"
