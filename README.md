@@ -1,5 +1,5 @@
 # How can I update my website profile?
-You can update your profile on the **People** page but creating a new entry or editing an existing entry in the `src/data/json/people.json` file.
+To update your profile on the **People** page, you can add a new entry or edit an existing entry in the `src/data/json/people.json` file.
 
 # How do I add a new publication to the website?
 To add or update publications, you can do so but editing the `src/data/json/publications.json` file.
