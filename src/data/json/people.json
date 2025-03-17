@@ -600,7 +600,7 @@
             "pageUrl": "",
             "researchDesc": "I am passionate about investigating the role of technology in positively enhancing inclusion in higher education spaces. I also have an interest in exploring how we create safe online spaces, where I primarily focus on studying Reddit communities."
         },
-	{
+	    {
             "photoUrl": "/images/sayantanibasu.jpeg",
             "name": "Sayantani Basu",
             "netId": "basu9",
@@ -609,6 +609,16 @@
             "gradYear": "",
             "pageUrl": "https://sayantanibasu.com",
             "researchDesc": "I am interested in deep learning and visualizations in healthcare, particularly implementing algorithms and interfaces."
-    }
+        }, 
+        {
+            "photoUrl": "/images/bbheem2.jpg",
+            "name": "Bhavana Bheem",
+            "netId": "bbheem2",
+            "degree": "PhD",
+            "status": "Current Student",
+            "gradYear": "",
+            "pageUrl": "https://bbheem2.github.io/",
+            "researchDesc": "I am interested in leveraging computational methods to inform governance and policy around artificial intelligence and exploring community-centered data practices to strive for equitable and inclusive outcomes."
+        }
     ]
 }
