@@ -1,6 +1,25 @@
 {
     "entries": [
-	{
+	    {
+            "photoUrl": "",
+            "title": "\"I'd Never Actually Realized How Big An Impact It Had Until Now\": Perspectives of University Students with Disabilities on Artificial Intelligence",
+            "url": "/papers/samuela7/chi25-1027-TAPS.pdf",
+            "year": 2025,
+            "conference": "CHI 2025",
+            "authorIds": [
+                "samuela7",
+                "O. Khan",
+                "B. Siemann",
+                "anikaj2",
+                "kkarahal"
+            ],
+            "awards": [],
+            "topics": [
+                "Accessibility"
+            ],
+            "description": ""
+        },	    
+        {
             "photoUrl": "",
             "title": "Choosing What You Want Versus Getting What You Want: An Experiment with Choice in Video Ad Placement",
             "url": "",
@@ -263,7 +282,7 @@
         },
         {
             "photoUrl": "",
-            "title": "You can’t always sketch what you want: Understanding Sensemaking in Visual Query Systems.",
+            "title": "You can't always sketch what you want: Understanding Sensemaking in Visual Query Systems.",
             "url": "https://doi.org/10.1109/TVCG.2019.2934666",
             "year": 2019,
             "conference": "VAST 2019",
