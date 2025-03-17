@@ -1,7 +1,17 @@
 {
     "entries": [
-	{
-	    "photoUrl": "/images/zhilin_zhang.jpeg",
+        {
+            "photoUrl": "/images/anika_jain.jpg",
+            "name": "Anika Jain",
+            "netId": "anikaj2",
+            "degree": "BS",
+            "status": "Alumni",
+            "gradYear": 2024,
+            "pageUrl": "https://anikajain.framer.website/",
+            "currentRole": "Carnegie Mellon University"
+        },
+        {
+	        "photoUrl": "/images/zhilin_zhang.jpeg",
             "name": "Zhilin Zhang",
             "netId": "zhilinz2",
             "degree": "BS+MS",
@@ -9,9 +19,9 @@
             "gradYear": 2021,
             "pageUrl": "https://www.zhilinzhang.com/",
             "currentRole": "University of Oxford"
-	},
-	{
-	    "photoUrl": "/images/swathiram.png",
+	    },
+	    {
+	        "photoUrl": "/images/swathiram.png",
             "name": "Swathi Ram",
             "netId": "swathir3",
             "degree": "BS",
@@ -19,7 +29,7 @@
             "gradYear": 2023,
             "pageUrl": "",
             "currentRole": ""
-	},
+	    },
         {
             "photoUrl": "/images/mpietrowicz.jpg",
             "name": "Mary Pietrowicz",
@@ -505,10 +515,11 @@
             "name": "Tiffany Wenting Li",
             "netId": "wenting7",
             "degree": "PhD",
-            "status": "Current Student",
-            "gradYear": "",
-            "pageUrl": "",
-            "researchDesc": ""
+            "status": "Alumni",
+            "gradYear": "2024",
+            "pageUrl": "https://tiffanywentingli.com/",
+            "researchDesc": "",
+            "currentRole": "Stevens Institute of Technology"
         },
         {
             "photoUrl": "/images/hangs2.jpg",
@@ -525,10 +536,11 @@
             "name": "Silas Hsu",
             "netId": "silash2",
             "degree": "PhD",
-            "status": "Current Student",
-            "gradYear": "",
-            "pageUrl": "",
-            "researchDesc": ""
+            "status": "Alumni",
+            "gradYear": "2024",
+            "pageUrl": "https://smhsu.github.io/",
+            "researchDesc": "",
+            "currentRole": "California Polytechnic State University, San Luis Obispo"
         },
         {
             "photoUrl": "/images/heather.jpg",
@@ -591,14 +603,14 @@
             "researchDesc": "I am interested in human-algorithmic interaction, specifically investigating how to effectively integrate automated assistance into established workflows related to decision making."
         },
         {
-            "photoUrl": "/images/samuel_atcheson.jpeg",
+            "photoUrl": "/images/alex_atcheson.jpeg",
             "name": "Alex Atcheson",
             "netId": "samuela7",
             "degree": "PhD",
             "status": "Current Student",
             "gradYear": "",
             "pageUrl": "",
-            "researchDesc": "I am passionate about investigating the role of technology in positively enhancing inclusion in higher education spaces. I also have an interest in exploring how we create safe online spaces, where I primarily focus on studying Reddit communities."
+            "researchDesc": "I am interested in applications of artificial intelligence to accessibility and communication."
         },
 	    {
             "photoUrl": "/images/sayantanibasu.jpeg",
