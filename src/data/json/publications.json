@@ -1,5 +1,26 @@
 {
     "entries": [
+        {
+            "photoUrl": "",
+            "title": "Organize, Then Vote: Exploring Cognitive Load in Quadratic Survey Interfaces",
+            "url": "https://tichung.com/about/publication/2025_chi_qsi.pdf",
+            "year": 2025,
+            "conference": "CHI 2025",
+            "authorIds": [
+                "tcheng10",
+                "yutongz2",
+                "Y.H. Chou",
+                "vkoshy2",
+                "wenting7",
+                "kkarahal",
+                "H. Sundaram"
+            ],
+            "awards": [],
+            "topics": [
+                "Other"
+            ],
+            "description": ""
+        },
 	    {
             "photoUrl": "",
             "title": "\"I'd Never Actually Realized How Big An Impact It Had Until Now\": Perspectives of University Students with Disabilities on Generative Artificial Intelligence",
