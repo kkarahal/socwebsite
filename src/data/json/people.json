@@ -609,8 +609,8 @@
             "degree": "PhD",
             "status": "Current Student",
             "gradYear": "",
-            "pageUrl": "",
-            "researchDesc": "I am interested in human-algorithmic interaction, specifically investigating how to effectively integrate automated assistance into established workflows related to decision making."
+            "pageUrl": "https://alihzaidi.github.io/",
+            "researchDesc": "I investigate how we can design AI to address underlying systemic issues by working directly with stakeholders. My work is interdisciplinary and spans the entire design process, from needfinding to building and evaluating solutions."
         },
         {
             "photoUrl": "/images/alex_atcheson.jpeg",
