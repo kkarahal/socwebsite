@@ -1,5 +1,21 @@
 {
     "entries": [
+	{
+            "photoUrl": "",
+            "title": "From Sociotechnical Gaps to Solutions: Designing AI Tools with Parents to Address Special Education Advocacy Barriers in IEP Processes",
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3715336.3735778",
+            "year": 2025,
+            "conference": "DIS 2025",
+            "authorIds": [
+                "aliz2",
+                "kkarahal",
+            ],
+            "awards": [],
+            "topics": [
+                "Other"
+            ],
+            "description": ""
+        },
         {
             "photoUrl": "",
             "title": "Organize, Then Vote: Exploring Cognitive Load in Quadratic Survey Interfaces",
